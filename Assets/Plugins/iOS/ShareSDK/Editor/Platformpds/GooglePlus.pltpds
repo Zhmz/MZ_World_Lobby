@@ -1,0 +1,4 @@
+{
+	"folders" : ["/SDK/ShareSDK/Support/PlatformSDK/GoogleSDK"],
+	"framework" : ["/SDK/ShareSDK/Support/PlatformConnector/GooglePlusConnector.framework"]
+}

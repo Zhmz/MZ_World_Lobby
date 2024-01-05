@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1b955d9d0189a49faa0a94eabfe6a880
+  m_SerializeEntries:
+  - m_GUID: 088c234acf1f60048b6c9c1e14690d76
+    m_Address: Assets/Models/ganyu.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f3b577313a23444ea3e5a8c777a0f68
+    m_Address: Assets/Models/hutao.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30ae4539b598c5a4bb7105d1209267b7
+    m_Address: Assets/Models/keqing.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b7fafdd091d0c64191eb587360d38d3
+    m_Address: Assets/Models/qiqi.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c951f4b8b76bf5c4a851f851f73ccac5
+    m_Address: Assets/Models/yunjin.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7e64518b861e4945a573784941f4214
+    m_Address: Assets/Models/zhongli.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c3fbea5cd9fa914b9001ec631b88380
+    m_Address: Assets/World/Prefab/WorldPrefab/Characters/ganyu Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3395a91d6f1b7584a80e881b1db0ad8c
+    m_Address: Assets/World/Prefab/WorldPrefab/Characters/hutao Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6743edd1b0422894e896da512ae700b1
+    m_Address: Assets/World/Prefab/WorldPrefab/Characters/keqing Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 115775e5fdbc0994d9a67857a9828cf3
+    m_Address: Assets/World/Prefab/WorldPrefab/Characters/qiqi_variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3b99a21ded795d438d848a23b8724fa
+    m_Address: Assets/World/Prefab/WorldPrefab/Characters/shenhe_variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbed948e953f6b741b3e4504b45a4826
+    m_Address: Assets/World/Prefab/WorldPrefab/Characters/yunjin_variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f76dac11ae88fc440a74f9f68b3184b6
+    m_Address: Assets/World/Prefab/WorldPrefab/Characters/zhongli_variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b0300f48f8d89a4d8d00c59f04c79dd
+    m_Address: Assets/Core/Models/shenhe.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e9ff054d210ba42b0863fc24424366ba, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8592547a2b28b46c4979550124a40931, type: 2}
+    - {fileID: 11400000, guid: b4a12a3fc65064756b70e26b51c8ca4b, type: 2}

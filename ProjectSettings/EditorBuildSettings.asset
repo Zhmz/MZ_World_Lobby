@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Launch.unity
+    guid: b1149d800b0964f9085158b4d70b5a13
+  - enabled: 1
+    path: Assets/Home/Scene/Login.unity
+    guid: 07dcce3d2ea1d4f429af868d7f416803
+  - enabled: 1
+    path: Assets/Home/Scene/Home.unity
+    guid: 6d70895ba51dd4f528604f1225d59499
+  - enabled: 1
+    path: Assets/World/Scene/World.unity
+    guid: f40240f707ab44b1bb44418dd39e410b
+  - enabled: 1
+    path: Assets/Lobby/Scene/Lobby.unity
+    guid: 0ebaba5bec143437da3ded052798b5d9
+  - enabled: 1
+    path: Assets/World/Suntail Village/Demo/WorldOther.unity
+    guid: f92dfda6574c0dd4bb785010bc97a9a0
+  - enabled: 1
+    path: Assets/Lobby/Scene/Scenes/LobbyOther.unity
+    guid: 2526e60e410382043b949554a7b0a4ff
+  - enabled: 0
+    path: Assets/Lobby/Scene/Chat.unity
+    guid: 09eddcb9dfeb995458df3dfda4e6e855
+  - enabled: 1
+    path: Assets/FishNet/Demos/SceneManager/Additive Scenes/Scenes/AdditiveScenes_Start.unity
+    guid: afbcf8f41ca78ef4296672aeb824f605
+  - enabled: 1
+    path: Assets/FishNet/Demos/SceneManager/Additive Scenes/Scenes/AdditiveScenes_0.unity
+    guid: 7643cdc3eefb15f4f8608cc633c55f7e
+  - enabled: 1
+    path: Assets/FishNet/Demos/SceneManager/Additive Scenes/Scenes/AdditiveScenes_1.unity
+    guid: aab2581cdfbe8f44698ef91d36f2d6c6
+  - enabled: 1
+    path: Assets/FishNet/Demos/SceneManager/Additive Scenes/Scenes/AdditiveScenes_2.unity
+    guid: 969cc8a8a67c58b4da9baa82a65c66bf
+  - enabled: 1
+    path: Assets/FishNet/Demos/SceneManager/Additive Scenes/Scenes/AdditiveScenes_3.unity
+    guid: 8ac819f926d1e914e9552e79c147082d
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: e32000edafb4d4e3e9723d7f00a927d4,
+      type: 2}

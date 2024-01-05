@@ -1,0 +1,25 @@
+-dontwarn com.cmic.sso.sdk.**
+-keep class com.cmic.sso.**{*;}
+-dontwarn com.sdk.**
+-keep class com.sdk.** { *;}
+-keep class cn.com.chinatelecom.account.**{*;}
+-keep public class * extends android.view.View
+-keep class com.netease.nis.quicklogin.entity.**{*;}
+-keep class com.netease.nis.quicklogin.listener.**{*;}
+-keep class com.netease.nis.quicklogin.QuickLogin{
+    public <methods>;
+    public <fields>;
+}
+-keep class com.netease.nis.quicklogin.helper.UnifyUiConfig{*;}
+-keep class com.netease.nis.quicklogin.helper.UnifyUiConfig$Builder{
+     public <methods>;
+     public <fields>;
+ }
+-keep class com.netease.nis.quicklogin.utils.LoginUiHelper$CustomViewListener{
+     public <methods>;
+     public <fields>;
+}
+-keep class com.netease.nis.basesdk.**{
+    public *;
+    protected *;
+}

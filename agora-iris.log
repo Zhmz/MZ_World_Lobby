@@ -1,0 +1,824 @@
+[2024-01-05 14:55:48.727] [815] [info] [iris_rtc_media_player_impl.cc:41] IrisMediaPlayerImpl Release
+[2024-01-05 14:55:48.728] [815] [info] [iris_rtc_media_player_wrapper.cc:39] IMediaPlayerWrapper release
+[2024-01-05 14:55:48.728] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:212] IrisLocalSpatialAudioEngineImpl Release
+[2024-01-05 14:55:48.728] [815] [info] [iris_rtc_spatial_audio_engine_wrapper.cc:388] ILocalSpatialAudioEngineWrapper release
+[2024-01-05 14:55:48.728] [815] [info] [iris_rtc_media_recorder_impl.cc:24] IrisMediaRecorderImpl Release
+[2024-01-05 14:55:48.728] [815] [info] [iris_rtc_music_center_impl.cc:26] IrisMusicCenterImpl Release
+[2024-01-05 14:55:48.728] [815] [info] [iris_rtc_music_center_wrapper.cc:27] IrisMusicContentCenterWrapper release
+[2024-01-05 14:55:48.728] [815] [info] [iris_rtc_engine_wrapper.cc:8134] IRtcEngineWrapper release
+[2024-01-05 14:55:48.736] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_release ret 0 result {"result":0}
+[2024-01-05 14:55:48.736] [815] [info] [iris_rtc_engine_impl.cc:42] IrisRtcEngineImpl Destroy
+[2024-01-05 14:55:48.736] [815] [info] [iris_rtc_music_center_impl.cc:16] IrisMusiImpl Destroy
+[2024-01-05 14:55:48.736] [815] [info] [iris_rtc_media_recorder_impl.cc:13] IrisMediaRecodrerImpl Destroy
+[2024-01-05 14:55:48.736] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:201] IrisLocalSpatialAudioEngineImpl Destroy
+[2024-01-05 14:55:48.737] [815] [info] [iris_rtc_media_player_impl.cc:26] IrisMediaPlayerImpl Destroy
+[2024-01-05 14:55:48.737] [815] [info] [iris_rtc_device_manager_impl.cc:25] IrisRtcDeviceManagerImpl Destroy
+[2024-01-05 15:11:46.136] [815] [info] [iris_rtc_engine_impl.cc:52] IrisRtcEngineImpl Initialize
+[2024-01-05 15:11:46.151] [815] [info] [iris_rtc_engine_impl.cc:94] api name RtcEngine_initialize params {"context":{"appId":"2a7***************445","context":0,"channelProfile":1,"license":"","audioScenario":3,"areaCode":4294967295,"logConfig":{"filePath":"./log.txt","fileSizeInKB":1024,"level":1},"useExternalEglContext":false,"autoRegisterAgoraExtensions":true}}
+[2024-01-05 15:11:46.152] [815] [info] [iris_logger.cc:114] reset logger to ./agora-iris.log
+[2024-01-05 15:11:46.152] [815] [info] [iris_logger.cc:116] iris version: 4.2.6-build.3 commit: a088bd46dc4c873c015c699de74569da00e5c8c8
+[2024-01-05 15:11:46.248] [815] [info] [iris_rtc_device_manager_impl.cc:29] IrisRtcDeviceManagerImpl Initialize
+[2024-01-05 15:11:46.292] [815] [info] [iris_rtc_media_player_impl.cc:30] IrisMediaPlayerImpl Initialize
+[2024-01-05 15:11:46.292] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:205] IrisLocalSpatialAudioEngineImpl Initialize
+[2024-01-05 15:11:46.293] [815] [info] [iris_rtc_media_recorder_impl.cc:17] IrisMediaRecorderImpl Initialize
+[2024-01-05 15:11:46.293] [815] [info] [iris_rtc_music_center_impl.cc:20] IrisMusicPlayerImpl Initialize
+[2024-01-05 15:11:46.293] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:11:46.298] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_setAppType params {"appType":2}
+[2024-01-05 15:11:46.299] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_setAppType ret 0 result {"result":0}
+[2024-01-05 15:11:46.299] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":true}
+[2024-01-05 15:11:46.299] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:11:46.299] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":true}
+[2024-01-05 15:11:46.299] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:11:46.299] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:11:46.300] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:11:46.300] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:11:46.300] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:11:46.301] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:11:46.301] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:11:46.301] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:11:46.301] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:11:46.301] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_enableAudio params {}
+[2024-01-05 15:11:46.302] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_enableAudio ret 0 result {"result":0}
+[2024-01-05 15:11:46.302] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:226] api name LocalSpatialAudioEngine_initialize params {}
+[2024-01-05 15:11:46.303] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:240] api name LocalSpatialAudioEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:11:46.308] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_registerEventHandler params {"event":12272041696}
+[2024-01-05 15:11:46.308] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_registerEventHandler ret 0 result {"result":0}
+[2024-01-05 15:12:37.807] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_leaveChannel params {}
+[2024-01-05 15:12:37.808] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_leaveChannel ret 0 result {"result":0}
+[2024-01-05 15:12:37.809] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_disableVideo params {}
+[2024-01-05 15:12:37.809] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_disableVideo ret 0 result {"result":0}
+[2024-01-05 15:12:37.813] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_release params {"sync":false}
+[2024-01-05 15:12:37.813] [815] [info] [iris_rtc_engine_impl.cc:194] IrisRtcEngineImpl __release
+[2024-01-05 15:12:37.813] [815] [info] [iris_rtc_device_manager_impl.cc:36] IrisRtcDeviceManagerImpl Release
+[2024-01-05 15:12:37.813] [815] [info] [iris_rtc_device_manager_wrapper.cc:791] IDeviceManagerWrapper release
+[2024-01-05 15:12:37.813] [815] [info] [iris_rtc_media_player_impl.cc:41] IrisMediaPlayerImpl Release
+[2024-01-05 15:12:37.813] [815] [info] [iris_rtc_media_player_wrapper.cc:39] IMediaPlayerWrapper release
+[2024-01-05 15:12:37.813] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:212] IrisLocalSpatialAudioEngineImpl Release
+[2024-01-05 15:12:37.813] [815] [info] [iris_rtc_spatial_audio_engine_wrapper.cc:388] ILocalSpatialAudioEngineWrapper release
+[2024-01-05 15:12:37.813] [815] [info] [iris_rtc_media_recorder_impl.cc:24] IrisMediaRecorderImpl Release
+[2024-01-05 15:12:37.813] [815] [info] [iris_rtc_music_center_impl.cc:26] IrisMusicCenterImpl Release
+[2024-01-05 15:12:37.813] [815] [info] [iris_rtc_music_center_wrapper.cc:27] IrisMusicContentCenterWrapper release
+[2024-01-05 15:12:37.813] [815] [info] [iris_rtc_engine_wrapper.cc:8134] IRtcEngineWrapper release
+[2024-01-05 15:12:37.822] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_release ret 0 result {"result":0}
+[2024-01-05 15:12:37.822] [815] [info] [iris_rtc_engine_impl.cc:42] IrisRtcEngineImpl Destroy
+[2024-01-05 15:12:37.823] [815] [info] [iris_rtc_music_center_impl.cc:16] IrisMusiImpl Destroy
+[2024-01-05 15:12:37.823] [815] [info] [iris_rtc_media_recorder_impl.cc:13] IrisMediaRecodrerImpl Destroy
+[2024-01-05 15:12:37.823] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:201] IrisLocalSpatialAudioEngineImpl Destroy
+[2024-01-05 15:12:37.823] [815] [info] [iris_rtc_media_player_impl.cc:26] IrisMediaPlayerImpl Destroy
+[2024-01-05 15:12:37.823] [815] [info] [iris_rtc_device_manager_impl.cc:25] IrisRtcDeviceManagerImpl Destroy
+[2024-01-05 15:13:12.421] [815] [info] [iris_rtc_engine_impl.cc:52] IrisRtcEngineImpl Initialize
+[2024-01-05 15:13:12.449] [815] [info] [iris_rtc_engine_impl.cc:94] api name RtcEngine_initialize params {"context":{"appId":"2a7***************445","context":0,"channelProfile":1,"license":"","audioScenario":3,"areaCode":4294967295,"logConfig":{"filePath":"./log.txt","fileSizeInKB":1024,"level":1},"useExternalEglContext":false,"autoRegisterAgoraExtensions":true}}
+[2024-01-05 15:13:12.450] [815] [info] [iris_logger.cc:114] reset logger to ./agora-iris.log
+[2024-01-05 15:13:12.450] [815] [info] [iris_logger.cc:116] iris version: 4.2.6-build.3 commit: a088bd46dc4c873c015c699de74569da00e5c8c8
+[2024-01-05 15:13:12.480] [815] [info] [iris_rtc_device_manager_impl.cc:29] IrisRtcDeviceManagerImpl Initialize
+[2024-01-05 15:13:12.505] [815] [info] [iris_rtc_media_player_impl.cc:30] IrisMediaPlayerImpl Initialize
+[2024-01-05 15:13:12.505] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:205] IrisLocalSpatialAudioEngineImpl Initialize
+[2024-01-05 15:13:12.505] [815] [info] [iris_rtc_media_recorder_impl.cc:17] IrisMediaRecorderImpl Initialize
+[2024-01-05 15:13:12.505] [815] [info] [iris_rtc_music_center_impl.cc:20] IrisMusicPlayerImpl Initialize
+[2024-01-05 15:13:12.505] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:13:12.509] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_setAppType params {"appType":2}
+[2024-01-05 15:13:12.509] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_setAppType ret 0 result {"result":0}
+[2024-01-05 15:13:12.510] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":true}
+[2024-01-05 15:13:12.510] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:13:12.510] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":true}
+[2024-01-05 15:13:12.510] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:13:12.510] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:13:12.510] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:13:12.510] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:13:12.510] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:13:12.511] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:13:12.511] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:13:12.511] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:13:12.511] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:13:12.511] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_enableAudio params {}
+[2024-01-05 15:13:12.511] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_enableAudio ret 0 result {"result":0}
+[2024-01-05 15:13:12.512] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:226] api name LocalSpatialAudioEngine_initialize params {}
+[2024-01-05 15:13:12.512] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:240] api name LocalSpatialAudioEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:13:12.516] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_registerEventHandler params {"event":15772513104}
+[2024-01-05 15:13:12.516] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_registerEventHandler ret 0 result {"result":0}
+[2024-01-05 15:13:16.629] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_leaveChannel params {}
+[2024-01-05 15:13:16.629] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_leaveChannel ret 0 result {"result":0}
+[2024-01-05 15:13:16.629] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_disableVideo params {}
+[2024-01-05 15:13:16.630] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_disableVideo ret 0 result {"result":0}
+[2024-01-05 15:13:16.632] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_release params {"sync":false}
+[2024-01-05 15:13:16.632] [815] [info] [iris_rtc_engine_impl.cc:194] IrisRtcEngineImpl __release
+[2024-01-05 15:13:16.632] [815] [info] [iris_rtc_device_manager_impl.cc:36] IrisRtcDeviceManagerImpl Release
+[2024-01-05 15:13:16.632] [815] [info] [iris_rtc_device_manager_wrapper.cc:791] IDeviceManagerWrapper release
+[2024-01-05 15:13:16.632] [815] [info] [iris_rtc_media_player_impl.cc:41] IrisMediaPlayerImpl Release
+[2024-01-05 15:13:16.632] [815] [info] [iris_rtc_media_player_wrapper.cc:39] IMediaPlayerWrapper release
+[2024-01-05 15:13:16.632] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:212] IrisLocalSpatialAudioEngineImpl Release
+[2024-01-05 15:13:16.632] [815] [info] [iris_rtc_spatial_audio_engine_wrapper.cc:388] ILocalSpatialAudioEngineWrapper release
+[2024-01-05 15:13:16.632] [815] [info] [iris_rtc_media_recorder_impl.cc:24] IrisMediaRecorderImpl Release
+[2024-01-05 15:13:16.632] [815] [info] [iris_rtc_music_center_impl.cc:26] IrisMusicCenterImpl Release
+[2024-01-05 15:13:16.632] [815] [info] [iris_rtc_music_center_wrapper.cc:27] IrisMusicContentCenterWrapper release
+[2024-01-05 15:13:16.632] [815] [info] [iris_rtc_engine_wrapper.cc:8134] IRtcEngineWrapper release
+[2024-01-05 15:13:16.640] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_release ret 0 result {"result":0}
+[2024-01-05 15:13:16.640] [815] [info] [iris_rtc_engine_impl.cc:42] IrisRtcEngineImpl Destroy
+[2024-01-05 15:13:16.640] [815] [info] [iris_rtc_music_center_impl.cc:16] IrisMusiImpl Destroy
+[2024-01-05 15:13:16.640] [815] [info] [iris_rtc_media_recorder_impl.cc:13] IrisMediaRecodrerImpl Destroy
+[2024-01-05 15:13:16.640] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:201] IrisLocalSpatialAudioEngineImpl Destroy
+[2024-01-05 15:13:16.640] [815] [info] [iris_rtc_media_player_impl.cc:26] IrisMediaPlayerImpl Destroy
+[2024-01-05 15:13:16.640] [815] [info] [iris_rtc_device_manager_impl.cc:25] IrisRtcDeviceManagerImpl Destroy
+[2024-01-05 15:13:32.430] [815] [info] [iris_rtc_engine_impl.cc:52] IrisRtcEngineImpl Initialize
+[2024-01-05 15:13:32.446] [815] [info] [iris_rtc_engine_impl.cc:94] api name RtcEngine_initialize params {"context":{"appId":"2a7***************445","context":0,"channelProfile":1,"license":"","audioScenario":3,"areaCode":4294967295,"logConfig":{"filePath":"./log.txt","fileSizeInKB":1024,"level":1},"useExternalEglContext":false,"autoRegisterAgoraExtensions":true}}
+[2024-01-05 15:13:32.447] [815] [info] [iris_logger.cc:114] reset logger to ./agora-iris.log
+[2024-01-05 15:13:32.447] [815] [info] [iris_logger.cc:116] iris version: 4.2.6-build.3 commit: a088bd46dc4c873c015c699de74569da00e5c8c8
+[2024-01-05 15:13:32.500] [815] [info] [iris_rtc_device_manager_impl.cc:29] IrisRtcDeviceManagerImpl Initialize
+[2024-01-05 15:13:32.523] [815] [info] [iris_rtc_media_player_impl.cc:30] IrisMediaPlayerImpl Initialize
+[2024-01-05 15:13:32.523] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:205] IrisLocalSpatialAudioEngineImpl Initialize
+[2024-01-05 15:13:32.523] [815] [info] [iris_rtc_media_recorder_impl.cc:17] IrisMediaRecorderImpl Initialize
+[2024-01-05 15:13:32.523] [815] [info] [iris_rtc_music_center_impl.cc:20] IrisMusicPlayerImpl Initialize
+[2024-01-05 15:13:32.523] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:13:32.528] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_setAppType params {"appType":2}
+[2024-01-05 15:13:32.528] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_setAppType ret 0 result {"result":0}
+[2024-01-05 15:13:32.529] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":true}
+[2024-01-05 15:13:32.529] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:13:32.529] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":true}
+[2024-01-05 15:13:32.529] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:13:32.529] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:13:32.529] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:13:32.529] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:13:32.530] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:13:32.531] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:13:32.531] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:13:32.531] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:13:32.531] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:13:32.531] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_enableAudio params {}
+[2024-01-05 15:13:32.531] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_enableAudio ret 0 result {"result":0}
+[2024-01-05 15:13:32.531] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:226] api name LocalSpatialAudioEngine_initialize params {}
+[2024-01-05 15:13:32.532] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:240] api name LocalSpatialAudioEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:13:32.537] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_registerEventHandler params {"event":11524935008}
+[2024-01-05 15:13:32.537] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_registerEventHandler ret 0 result {"result":0}
+[2024-01-05 15:14:34.136] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_leaveChannel params {}
+[2024-01-05 15:14:34.137] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_leaveChannel ret 0 result {"result":0}
+[2024-01-05 15:14:34.137] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_disableVideo params {}
+[2024-01-05 15:14:34.137] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_disableVideo ret 0 result {"result":0}
+[2024-01-05 15:14:34.140] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_release params {"sync":false}
+[2024-01-05 15:14:34.140] [815] [info] [iris_rtc_engine_impl.cc:194] IrisRtcEngineImpl __release
+[2024-01-05 15:14:34.140] [815] [info] [iris_rtc_device_manager_impl.cc:36] IrisRtcDeviceManagerImpl Release
+[2024-01-05 15:14:34.140] [815] [info] [iris_rtc_device_manager_wrapper.cc:791] IDeviceManagerWrapper release
+[2024-01-05 15:14:34.140] [815] [info] [iris_rtc_media_player_impl.cc:41] IrisMediaPlayerImpl Release
+[2024-01-05 15:14:34.140] [815] [info] [iris_rtc_media_player_wrapper.cc:39] IMediaPlayerWrapper release
+[2024-01-05 15:14:34.140] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:212] IrisLocalSpatialAudioEngineImpl Release
+[2024-01-05 15:14:34.140] [815] [info] [iris_rtc_spatial_audio_engine_wrapper.cc:388] ILocalSpatialAudioEngineWrapper release
+[2024-01-05 15:14:34.140] [815] [info] [iris_rtc_media_recorder_impl.cc:24] IrisMediaRecorderImpl Release
+[2024-01-05 15:14:34.140] [815] [info] [iris_rtc_music_center_impl.cc:26] IrisMusicCenterImpl Release
+[2024-01-05 15:14:34.140] [815] [info] [iris_rtc_music_center_wrapper.cc:27] IrisMusicContentCenterWrapper release
+[2024-01-05 15:14:34.140] [815] [info] [iris_rtc_engine_wrapper.cc:8134] IRtcEngineWrapper release
+[2024-01-05 15:14:34.145] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_release ret 0 result {"result":0}
+[2024-01-05 15:14:34.145] [815] [info] [iris_rtc_engine_impl.cc:42] IrisRtcEngineImpl Destroy
+[2024-01-05 15:14:34.145] [815] [info] [iris_rtc_music_center_impl.cc:16] IrisMusiImpl Destroy
+[2024-01-05 15:14:34.145] [815] [info] [iris_rtc_media_recorder_impl.cc:13] IrisMediaRecodrerImpl Destroy
+[2024-01-05 15:14:34.145] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:201] IrisLocalSpatialAudioEngineImpl Destroy
+[2024-01-05 15:14:34.145] [815] [info] [iris_rtc_media_player_impl.cc:26] IrisMediaPlayerImpl Destroy
+[2024-01-05 15:14:34.145] [815] [info] [iris_rtc_device_manager_impl.cc:25] IrisRtcDeviceManagerImpl Destroy
+[2024-01-05 15:15:57.465] [815] [info] [iris_rtc_engine_impl.cc:52] IrisRtcEngineImpl Initialize
+[2024-01-05 15:15:57.475] [815] [info] [iris_rtc_engine_impl.cc:94] api name RtcEngine_initialize params {"context":{"appId":"2a7***************445","context":0,"channelProfile":1,"license":"","audioScenario":3,"areaCode":4294967295,"logConfig":{"filePath":"./log.txt","fileSizeInKB":1024,"level":1},"useExternalEglContext":false,"autoRegisterAgoraExtensions":true}}
+[2024-01-05 15:15:57.475] [815] [info] [iris_logger.cc:114] reset logger to ./agora-iris.log
+[2024-01-05 15:15:57.475] [815] [info] [iris_logger.cc:116] iris version: 4.2.6-build.3 commit: a088bd46dc4c873c015c699de74569da00e5c8c8
+[2024-01-05 15:15:57.505] [815] [info] [iris_rtc_device_manager_impl.cc:29] IrisRtcDeviceManagerImpl Initialize
+[2024-01-05 15:15:57.531] [815] [info] [iris_rtc_media_player_impl.cc:30] IrisMediaPlayerImpl Initialize
+[2024-01-05 15:15:57.531] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:205] IrisLocalSpatialAudioEngineImpl Initialize
+[2024-01-05 15:15:57.531] [815] [info] [iris_rtc_media_recorder_impl.cc:17] IrisMediaRecorderImpl Initialize
+[2024-01-05 15:15:57.531] [815] [info] [iris_rtc_music_center_impl.cc:20] IrisMusicPlayerImpl Initialize
+[2024-01-05 15:15:57.531] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:15:57.535] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_setAppType params {"appType":2}
+[2024-01-05 15:15:57.535] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_setAppType ret 0 result {"result":0}
+[2024-01-05 15:15:57.535] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":true}
+[2024-01-05 15:15:57.535] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:15:57.535] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":true}
+[2024-01-05 15:15:57.535] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:15:57.536] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:15:57.536] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:15:57.536] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:15:57.536] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:15:57.537] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:15:57.537] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:15:57.537] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:15:57.537] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:15:57.537] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_enableAudio params {}
+[2024-01-05 15:15:57.537] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_enableAudio ret 0 result {"result":0}
+[2024-01-05 15:15:57.537] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:226] api name LocalSpatialAudioEngine_initialize params {}
+[2024-01-05 15:15:57.538] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:240] api name LocalSpatialAudioEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:15:57.542] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_registerEventHandler params {"event":15902320064}
+[2024-01-05 15:15:57.542] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_registerEventHandler ret 0 result {"result":0}
+[2024-01-05 15:16:19.664] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:16:19.664] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:16:19.666] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:16:19.666] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:16:19.755] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:16:19.755] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:16:19.755] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:16:19.755] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:16:35.271] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_release params {"sync":false}
+[2024-01-05 15:16:35.271] [815] [info] [iris_rtc_engine_impl.cc:194] IrisRtcEngineImpl __release
+[2024-01-05 15:16:35.271] [815] [info] [iris_rtc_device_manager_impl.cc:36] IrisRtcDeviceManagerImpl Release
+[2024-01-05 15:16:35.271] [815] [info] [iris_rtc_device_manager_wrapper.cc:791] IDeviceManagerWrapper release
+[2024-01-05 15:16:35.271] [815] [info] [iris_rtc_media_player_impl.cc:41] IrisMediaPlayerImpl Release
+[2024-01-05 15:16:35.271] [815] [info] [iris_rtc_media_player_wrapper.cc:39] IMediaPlayerWrapper release
+[2024-01-05 15:16:35.271] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:212] IrisLocalSpatialAudioEngineImpl Release
+[2024-01-05 15:16:35.271] [815] [info] [iris_rtc_spatial_audio_engine_wrapper.cc:388] ILocalSpatialAudioEngineWrapper release
+[2024-01-05 15:16:35.271] [815] [info] [iris_rtc_media_recorder_impl.cc:24] IrisMediaRecorderImpl Release
+[2024-01-05 15:16:35.271] [815] [info] [iris_rtc_music_center_impl.cc:26] IrisMusicCenterImpl Release
+[2024-01-05 15:16:35.271] [815] [info] [iris_rtc_music_center_wrapper.cc:27] IrisMusicContentCenterWrapper release
+[2024-01-05 15:16:35.271] [815] [info] [iris_rtc_engine_wrapper.cc:8134] IRtcEngineWrapper release
+[2024-01-05 15:16:35.277] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_release ret 0 result {"result":0}
+[2024-01-05 15:16:35.277] [815] [info] [iris_rtc_engine_impl.cc:42] IrisRtcEngineImpl Destroy
+[2024-01-05 15:16:35.278] [815] [info] [iris_rtc_music_center_impl.cc:16] IrisMusiImpl Destroy
+[2024-01-05 15:16:35.278] [815] [info] [iris_rtc_media_recorder_impl.cc:13] IrisMediaRecodrerImpl Destroy
+[2024-01-05 15:16:35.278] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:201] IrisLocalSpatialAudioEngineImpl Destroy
+[2024-01-05 15:16:35.278] [815] [info] [iris_rtc_media_player_impl.cc:26] IrisMediaPlayerImpl Destroy
+[2024-01-05 15:16:35.278] [815] [info] [iris_rtc_device_manager_impl.cc:25] IrisRtcDeviceManagerImpl Destroy
+[2024-01-05 15:34:11.726] [815] [info] [iris_rtc_engine_impl.cc:52] IrisRtcEngineImpl Initialize
+[2024-01-05 15:34:11.736] [815] [info] [iris_rtc_engine_impl.cc:94] api name RtcEngine_initialize params {"context":{"appId":"2a7***************445","context":0,"channelProfile":1,"license":"","audioScenario":3,"areaCode":4294967295,"logConfig":{"filePath":"./log.txt","fileSizeInKB":1024,"level":1},"useExternalEglContext":false,"autoRegisterAgoraExtensions":true}}
+[2024-01-05 15:34:11.737] [815] [info] [iris_logger.cc:114] reset logger to ./agora-iris.log
+[2024-01-05 15:34:11.737] [815] [info] [iris_logger.cc:116] iris version: 4.2.6-build.3 commit: a088bd46dc4c873c015c699de74569da00e5c8c8
+[2024-01-05 15:34:11.769] [815] [info] [iris_rtc_device_manager_impl.cc:29] IrisRtcDeviceManagerImpl Initialize
+[2024-01-05 15:34:11.794] [815] [info] [iris_rtc_media_player_impl.cc:30] IrisMediaPlayerImpl Initialize
+[2024-01-05 15:34:11.794] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:205] IrisLocalSpatialAudioEngineImpl Initialize
+[2024-01-05 15:34:11.794] [815] [info] [iris_rtc_media_recorder_impl.cc:17] IrisMediaRecorderImpl Initialize
+[2024-01-05 15:34:11.794] [815] [info] [iris_rtc_music_center_impl.cc:20] IrisMusicPlayerImpl Initialize
+[2024-01-05 15:34:11.794] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:34:11.799] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_setAppType params {"appType":2}
+[2024-01-05 15:34:11.799] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_setAppType ret 0 result {"result":0}
+[2024-01-05 15:34:11.799] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":true}
+[2024-01-05 15:34:11.799] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:34:11.799] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":true}
+[2024-01-05 15:34:11.799] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:34:11.799] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:34:11.799] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:34:11.800] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:34:11.800] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:34:11.800] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:34:11.801] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:34:11.801] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:34:11.801] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:34:11.801] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_enableAudio params {}
+[2024-01-05 15:34:11.801] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_enableAudio ret 0 result {"result":0}
+[2024-01-05 15:34:11.801] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:226] api name LocalSpatialAudioEngine_initialize params {}
+[2024-01-05 15:34:11.801] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:240] api name LocalSpatialAudioEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:34:11.806] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_registerEventHandler params {"event":11524880656}
+[2024-01-05 15:34:11.806] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_registerEventHandler ret 0 result {"result":0}
+[2024-01-05 15:35:12.122] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:35:12.122] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:35:12.124] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:35:12.124] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:35:12.411] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:35:12.411] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:35:12.411] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:35:12.411] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:35:21.168] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_release params {"sync":false}
+[2024-01-05 15:35:21.168] [815] [info] [iris_rtc_engine_impl.cc:194] IrisRtcEngineImpl __release
+[2024-01-05 15:35:21.168] [815] [info] [iris_rtc_device_manager_impl.cc:36] IrisRtcDeviceManagerImpl Release
+[2024-01-05 15:35:21.168] [815] [info] [iris_rtc_device_manager_wrapper.cc:791] IDeviceManagerWrapper release
+[2024-01-05 15:35:21.169] [815] [info] [iris_rtc_media_player_impl.cc:41] IrisMediaPlayerImpl Release
+[2024-01-05 15:35:21.169] [815] [info] [iris_rtc_media_player_wrapper.cc:39] IMediaPlayerWrapper release
+[2024-01-05 15:35:21.169] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:212] IrisLocalSpatialAudioEngineImpl Release
+[2024-01-05 15:35:21.169] [815] [info] [iris_rtc_spatial_audio_engine_wrapper.cc:388] ILocalSpatialAudioEngineWrapper release
+[2024-01-05 15:35:21.169] [815] [info] [iris_rtc_media_recorder_impl.cc:24] IrisMediaRecorderImpl Release
+[2024-01-05 15:35:21.169] [815] [info] [iris_rtc_music_center_impl.cc:26] IrisMusicCenterImpl Release
+[2024-01-05 15:35:21.169] [815] [info] [iris_rtc_music_center_wrapper.cc:27] IrisMusicContentCenterWrapper release
+[2024-01-05 15:35:21.169] [815] [info] [iris_rtc_engine_wrapper.cc:8134] IRtcEngineWrapper release
+[2024-01-05 15:35:21.179] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_release ret 0 result {"result":0}
+[2024-01-05 15:35:21.179] [815] [info] [iris_rtc_engine_impl.cc:42] IrisRtcEngineImpl Destroy
+[2024-01-05 15:35:21.179] [815] [info] [iris_rtc_music_center_impl.cc:16] IrisMusiImpl Destroy
+[2024-01-05 15:35:21.179] [815] [info] [iris_rtc_media_recorder_impl.cc:13] IrisMediaRecodrerImpl Destroy
+[2024-01-05 15:35:21.179] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:201] IrisLocalSpatialAudioEngineImpl Destroy
+[2024-01-05 15:35:21.179] [815] [info] [iris_rtc_media_player_impl.cc:26] IrisMediaPlayerImpl Destroy
+[2024-01-05 15:35:21.179] [815] [info] [iris_rtc_device_manager_impl.cc:25] IrisRtcDeviceManagerImpl Destroy
+[2024-01-05 15:37:00.638] [815] [info] [iris_rtc_engine_impl.cc:52] IrisRtcEngineImpl Initialize
+[2024-01-05 15:37:00.653] [815] [info] [iris_rtc_engine_impl.cc:94] api name RtcEngine_initialize params {"context":{"appId":"2a7***************445","context":0,"channelProfile":1,"license":"","audioScenario":3,"areaCode":4294967295,"logConfig":{"filePath":"./log.txt","fileSizeInKB":1024,"level":1},"useExternalEglContext":false,"autoRegisterAgoraExtensions":true}}
+[2024-01-05 15:37:00.653] [815] [info] [iris_logger.cc:114] reset logger to ./agora-iris.log
+[2024-01-05 15:37:00.653] [815] [info] [iris_logger.cc:116] iris version: 4.2.6-build.3 commit: a088bd46dc4c873c015c699de74569da00e5c8c8
+[2024-01-05 15:37:00.698] [815] [info] [iris_rtc_device_manager_impl.cc:29] IrisRtcDeviceManagerImpl Initialize
+[2024-01-05 15:37:00.723] [815] [info] [iris_rtc_media_player_impl.cc:30] IrisMediaPlayerImpl Initialize
+[2024-01-05 15:37:00.723] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:205] IrisLocalSpatialAudioEngineImpl Initialize
+[2024-01-05 15:37:00.724] [815] [info] [iris_rtc_media_recorder_impl.cc:17] IrisMediaRecorderImpl Initialize
+[2024-01-05 15:37:00.724] [815] [info] [iris_rtc_music_center_impl.cc:20] IrisMusicPlayerImpl Initialize
+[2024-01-05 15:37:00.724] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:37:00.729] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_setAppType params {"appType":2}
+[2024-01-05 15:37:00.730] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_setAppType ret 0 result {"result":0}
+[2024-01-05 15:37:00.730] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":true}
+[2024-01-05 15:37:00.730] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:37:00.730] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":true}
+[2024-01-05 15:37:00.730] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:37:00.730] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:37:00.731] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:37:00.731] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:37:00.734] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:37:00.736] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:37:00.736] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:37:00.736] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:37:00.736] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:37:00.736] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_enableAudio params {}
+[2024-01-05 15:37:00.737] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_enableAudio ret 0 result {"result":0}
+[2024-01-05 15:37:00.737] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:226] api name LocalSpatialAudioEngine_initialize params {}
+[2024-01-05 15:37:00.738] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:240] api name LocalSpatialAudioEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:37:00.745] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_registerEventHandler params {"event":14015534560}
+[2024-01-05 15:37:00.745] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_registerEventHandler ret 0 result {"result":0}
+[2024-01-05 15:38:20.779] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:38:20.780] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:38:20.782] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:38:20.783] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:38:20.895] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:38:20.895] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:38:20.895] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:38:20.896] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:38:41.220] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_release params {"sync":false}
+[2024-01-05 15:38:41.220] [815] [info] [iris_rtc_engine_impl.cc:194] IrisRtcEngineImpl __release
+[2024-01-05 15:38:41.220] [815] [info] [iris_rtc_device_manager_impl.cc:36] IrisRtcDeviceManagerImpl Release
+[2024-01-05 15:38:41.220] [815] [info] [iris_rtc_device_manager_wrapper.cc:791] IDeviceManagerWrapper release
+[2024-01-05 15:38:41.220] [815] [info] [iris_rtc_media_player_impl.cc:41] IrisMediaPlayerImpl Release
+[2024-01-05 15:38:41.220] [815] [info] [iris_rtc_media_player_wrapper.cc:39] IMediaPlayerWrapper release
+[2024-01-05 15:38:41.220] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:212] IrisLocalSpatialAudioEngineImpl Release
+[2024-01-05 15:38:41.220] [815] [info] [iris_rtc_spatial_audio_engine_wrapper.cc:388] ILocalSpatialAudioEngineWrapper release
+[2024-01-05 15:38:41.220] [815] [info] [iris_rtc_media_recorder_impl.cc:24] IrisMediaRecorderImpl Release
+[2024-01-05 15:38:41.220] [815] [info] [iris_rtc_music_center_impl.cc:26] IrisMusicCenterImpl Release
+[2024-01-05 15:38:41.220] [815] [info] [iris_rtc_music_center_wrapper.cc:27] IrisMusicContentCenterWrapper release
+[2024-01-05 15:38:41.220] [815] [info] [iris_rtc_engine_wrapper.cc:8134] IRtcEngineWrapper release
+[2024-01-05 15:38:41.227] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_release ret 0 result {"result":0}
+[2024-01-05 15:38:41.228] [815] [info] [iris_rtc_engine_impl.cc:42] IrisRtcEngineImpl Destroy
+[2024-01-05 15:38:41.228] [815] [info] [iris_rtc_music_center_impl.cc:16] IrisMusiImpl Destroy
+[2024-01-05 15:38:41.228] [815] [info] [iris_rtc_media_recorder_impl.cc:13] IrisMediaRecodrerImpl Destroy
+[2024-01-05 15:38:41.228] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:201] IrisLocalSpatialAudioEngineImpl Destroy
+[2024-01-05 15:38:41.228] [815] [info] [iris_rtc_media_player_impl.cc:26] IrisMediaPlayerImpl Destroy
+[2024-01-05 15:38:41.228] [815] [info] [iris_rtc_device_manager_impl.cc:25] IrisRtcDeviceManagerImpl Destroy
+[2024-01-05 15:40:08.093] [815] [info] [iris_rtc_engine_impl.cc:52] IrisRtcEngineImpl Initialize
+[2024-01-05 15:40:08.104] [815] [info] [iris_rtc_engine_impl.cc:94] api name RtcEngine_initialize params {"context":{"appId":"2a7***************445","context":0,"channelProfile":1,"license":"","audioScenario":3,"areaCode":4294967295,"logConfig":{"filePath":"./log.txt","fileSizeInKB":1024,"level":1},"useExternalEglContext":false,"autoRegisterAgoraExtensions":true}}
+[2024-01-05 15:40:08.104] [815] [info] [iris_logger.cc:114] reset logger to ./agora-iris.log
+[2024-01-05 15:40:08.104] [815] [info] [iris_logger.cc:116] iris version: 4.2.6-build.3 commit: a088bd46dc4c873c015c699de74569da00e5c8c8
+[2024-01-05 15:40:08.135] [815] [info] [iris_rtc_device_manager_impl.cc:29] IrisRtcDeviceManagerImpl Initialize
+[2024-01-05 15:40:08.159] [815] [info] [iris_rtc_media_player_impl.cc:30] IrisMediaPlayerImpl Initialize
+[2024-01-05 15:40:08.159] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:205] IrisLocalSpatialAudioEngineImpl Initialize
+[2024-01-05 15:40:08.159] [815] [info] [iris_rtc_media_recorder_impl.cc:17] IrisMediaRecorderImpl Initialize
+[2024-01-05 15:40:08.159] [815] [info] [iris_rtc_music_center_impl.cc:20] IrisMusicPlayerImpl Initialize
+[2024-01-05 15:40:08.159] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:40:08.164] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_setAppType params {"appType":2}
+[2024-01-05 15:40:08.164] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_setAppType ret 0 result {"result":0}
+[2024-01-05 15:40:08.164] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":true}
+[2024-01-05 15:40:08.164] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:40:08.164] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":true}
+[2024-01-05 15:40:08.164] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:40:08.165] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:40:08.165] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:40:08.165] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:40:08.165] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:40:08.166] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:40:08.166] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:40:08.166] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:40:08.166] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:40:08.166] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_enableAudio params {}
+[2024-01-05 15:40:08.166] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_enableAudio ret 0 result {"result":0}
+[2024-01-05 15:40:08.166] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:226] api name LocalSpatialAudioEngine_initialize params {}
+[2024-01-05 15:40:08.167] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:240] api name LocalSpatialAudioEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:40:08.171] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_registerEventHandler params {"event":14034904032}
+[2024-01-05 15:40:08.171] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_registerEventHandler ret 0 result {"result":0}
+[2024-01-05 15:41:44.543] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:41:44.543] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:41:44.547] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:41:44.547] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:41:44.630] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:41:44.630] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:41:44.630] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:41:44.630] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:41:58.711] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_release params {"sync":false}
+[2024-01-05 15:41:58.711] [815] [info] [iris_rtc_engine_impl.cc:194] IrisRtcEngineImpl __release
+[2024-01-05 15:41:58.711] [815] [info] [iris_rtc_device_manager_impl.cc:36] IrisRtcDeviceManagerImpl Release
+[2024-01-05 15:41:58.711] [815] [info] [iris_rtc_device_manager_wrapper.cc:791] IDeviceManagerWrapper release
+[2024-01-05 15:41:58.712] [815] [info] [iris_rtc_media_player_impl.cc:41] IrisMediaPlayerImpl Release
+[2024-01-05 15:41:58.712] [815] [info] [iris_rtc_media_player_wrapper.cc:39] IMediaPlayerWrapper release
+[2024-01-05 15:41:58.712] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:212] IrisLocalSpatialAudioEngineImpl Release
+[2024-01-05 15:41:58.712] [815] [info] [iris_rtc_spatial_audio_engine_wrapper.cc:388] ILocalSpatialAudioEngineWrapper release
+[2024-01-05 15:41:58.712] [815] [info] [iris_rtc_media_recorder_impl.cc:24] IrisMediaRecorderImpl Release
+[2024-01-05 15:41:58.712] [815] [info] [iris_rtc_music_center_impl.cc:26] IrisMusicCenterImpl Release
+[2024-01-05 15:41:58.712] [815] [info] [iris_rtc_music_center_wrapper.cc:27] IrisMusicContentCenterWrapper release
+[2024-01-05 15:41:58.712] [815] [info] [iris_rtc_engine_wrapper.cc:8134] IRtcEngineWrapper release
+[2024-01-05 15:41:58.718] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_release ret 0 result {"result":0}
+[2024-01-05 15:41:58.718] [815] [info] [iris_rtc_engine_impl.cc:42] IrisRtcEngineImpl Destroy
+[2024-01-05 15:41:58.718] [815] [info] [iris_rtc_music_center_impl.cc:16] IrisMusiImpl Destroy
+[2024-01-05 15:41:58.718] [815] [info] [iris_rtc_media_recorder_impl.cc:13] IrisMediaRecodrerImpl Destroy
+[2024-01-05 15:41:58.718] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:201] IrisLocalSpatialAudioEngineImpl Destroy
+[2024-01-05 15:41:58.718] [815] [info] [iris_rtc_media_player_impl.cc:26] IrisMediaPlayerImpl Destroy
+[2024-01-05 15:41:58.718] [815] [info] [iris_rtc_device_manager_impl.cc:25] IrisRtcDeviceManagerImpl Destroy
+[2024-01-05 15:44:20.096] [815] [info] [iris_rtc_engine_impl.cc:52] IrisRtcEngineImpl Initialize
+[2024-01-05 15:44:20.106] [815] [info] [iris_rtc_engine_impl.cc:94] api name RtcEngine_initialize params {"context":{"appId":"2a7***************445","context":0,"channelProfile":1,"license":"","audioScenario":3,"areaCode":4294967295,"logConfig":{"filePath":"./log.txt","fileSizeInKB":1024,"level":1},"useExternalEglContext":false,"autoRegisterAgoraExtensions":true}}
+[2024-01-05 15:44:20.106] [815] [info] [iris_logger.cc:114] reset logger to ./agora-iris.log
+[2024-01-05 15:44:20.106] [815] [info] [iris_logger.cc:116] iris version: 4.2.6-build.3 commit: a088bd46dc4c873c015c699de74569da00e5c8c8
+[2024-01-05 15:44:20.135] [815] [info] [iris_rtc_device_manager_impl.cc:29] IrisRtcDeviceManagerImpl Initialize
+[2024-01-05 15:44:20.154] [815] [info] [iris_rtc_media_player_impl.cc:30] IrisMediaPlayerImpl Initialize
+[2024-01-05 15:44:20.154] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:205] IrisLocalSpatialAudioEngineImpl Initialize
+[2024-01-05 15:44:20.154] [815] [info] [iris_rtc_media_recorder_impl.cc:17] IrisMediaRecorderImpl Initialize
+[2024-01-05 15:44:20.154] [815] [info] [iris_rtc_music_center_impl.cc:20] IrisMusicPlayerImpl Initialize
+[2024-01-05 15:44:20.154] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:44:20.159] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_setAppType params {"appType":2}
+[2024-01-05 15:44:20.159] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_setAppType ret 0 result {"result":0}
+[2024-01-05 15:44:20.159] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":true}
+[2024-01-05 15:44:20.159] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:44:20.159] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":true}
+[2024-01-05 15:44:20.159] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:44:20.159] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:44:20.159] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:44:20.159] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:44:20.160] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:44:20.160] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:44:20.160] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:44:20.160] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:44:20.160] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:44:20.161] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_enableAudio params {}
+[2024-01-05 15:44:20.161] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_enableAudio ret 0 result {"result":0}
+[2024-01-05 15:44:20.161] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:226] api name LocalSpatialAudioEngine_initialize params {}
+[2024-01-05 15:44:20.161] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:240] api name LocalSpatialAudioEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:44:20.166] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_registerEventHandler params {"event":15450984928}
+[2024-01-05 15:44:20.166] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_registerEventHandler ret 0 result {"result":0}
+[2024-01-05 15:45:34.723] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:45:34.723] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:45:34.725] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:45:34.725] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:45:34.821] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:45:34.821] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:45:34.821] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:45:34.821] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:45:38.306] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:45:38.306] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:45:38.306] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:45:38.307] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:45:55.508] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_release params {"sync":false}
+[2024-01-05 15:45:55.508] [815] [info] [iris_rtc_engine_impl.cc:194] IrisRtcEngineImpl __release
+[2024-01-05 15:45:55.508] [815] [info] [iris_rtc_device_manager_impl.cc:36] IrisRtcDeviceManagerImpl Release
+[2024-01-05 15:45:55.508] [815] [info] [iris_rtc_device_manager_wrapper.cc:791] IDeviceManagerWrapper release
+[2024-01-05 15:45:55.509] [815] [info] [iris_rtc_media_player_impl.cc:41] IrisMediaPlayerImpl Release
+[2024-01-05 15:45:55.509] [815] [info] [iris_rtc_media_player_wrapper.cc:39] IMediaPlayerWrapper release
+[2024-01-05 15:45:55.509] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:212] IrisLocalSpatialAudioEngineImpl Release
+[2024-01-05 15:45:55.509] [815] [info] [iris_rtc_spatial_audio_engine_wrapper.cc:388] ILocalSpatialAudioEngineWrapper release
+[2024-01-05 15:45:55.509] [815] [info] [iris_rtc_media_recorder_impl.cc:24] IrisMediaRecorderImpl Release
+[2024-01-05 15:45:55.509] [815] [info] [iris_rtc_music_center_impl.cc:26] IrisMusicCenterImpl Release
+[2024-01-05 15:45:55.509] [815] [info] [iris_rtc_music_center_wrapper.cc:27] IrisMusicContentCenterWrapper release
+[2024-01-05 15:45:55.509] [815] [info] [iris_rtc_engine_wrapper.cc:8134] IRtcEngineWrapper release
+[2024-01-05 15:45:55.519] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_release ret 0 result {"result":0}
+[2024-01-05 15:45:55.520] [815] [info] [iris_rtc_engine_impl.cc:42] IrisRtcEngineImpl Destroy
+[2024-01-05 15:45:55.520] [815] [info] [iris_rtc_music_center_impl.cc:16] IrisMusiImpl Destroy
+[2024-01-05 15:45:55.520] [815] [info] [iris_rtc_media_recorder_impl.cc:13] IrisMediaRecodrerImpl Destroy
+[2024-01-05 15:45:55.520] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:201] IrisLocalSpatialAudioEngineImpl Destroy
+[2024-01-05 15:45:55.520] [815] [info] [iris_rtc_media_player_impl.cc:26] IrisMediaPlayerImpl Destroy
+[2024-01-05 15:45:55.520] [815] [info] [iris_rtc_device_manager_impl.cc:25] IrisRtcDeviceManagerImpl Destroy
+[2024-01-05 15:58:31.995] [815] [info] [iris_rtc_engine_impl.cc:52] IrisRtcEngineImpl Initialize
+[2024-01-05 15:58:32.013] [815] [info] [iris_rtc_engine_impl.cc:94] api name RtcEngine_initialize params {"context":{"appId":"2a7***************445","context":0,"channelProfile":1,"license":"","audioScenario":3,"areaCode":4294967295,"logConfig":{"filePath":"./log.txt","fileSizeInKB":1024,"level":1},"useExternalEglContext":false,"autoRegisterAgoraExtensions":true}}
+[2024-01-05 15:58:32.014] [815] [info] [iris_logger.cc:114] reset logger to ./agora-iris.log
+[2024-01-05 15:58:32.014] [815] [info] [iris_logger.cc:116] iris version: 4.2.6-build.3 commit: a088bd46dc4c873c015c699de74569da00e5c8c8
+[2024-01-05 15:58:32.062] [815] [info] [iris_rtc_device_manager_impl.cc:29] IrisRtcDeviceManagerImpl Initialize
+[2024-01-05 15:58:32.087] [815] [info] [iris_rtc_media_player_impl.cc:30] IrisMediaPlayerImpl Initialize
+[2024-01-05 15:58:32.087] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:205] IrisLocalSpatialAudioEngineImpl Initialize
+[2024-01-05 15:58:32.087] [815] [info] [iris_rtc_media_recorder_impl.cc:17] IrisMediaRecorderImpl Initialize
+[2024-01-05 15:58:32.087] [815] [info] [iris_rtc_music_center_impl.cc:20] IrisMusicPlayerImpl Initialize
+[2024-01-05 15:58:32.087] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:58:32.092] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_setAppType params {"appType":2}
+[2024-01-05 15:58:32.093] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_setAppType ret 0 result {"result":0}
+[2024-01-05 15:58:32.093] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":true}
+[2024-01-05 15:58:32.093] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:58:32.093] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":true}
+[2024-01-05 15:58:32.093] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:58:32.093] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:58:32.094] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:58:32.094] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:58:32.094] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:58:32.095] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 15:58:32.095] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:58:32.095] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 15:58:32.095] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 15:58:32.095] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_enableAudio params {}
+[2024-01-05 15:58:32.096] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_enableAudio ret 0 result {"result":0}
+[2024-01-05 15:58:32.096] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:226] api name LocalSpatialAudioEngine_initialize params {}
+[2024-01-05 15:58:32.096] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:240] api name LocalSpatialAudioEngine_initialize ret 0 result {"result":0}
+[2024-01-05 15:58:32.101] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_registerEventHandler params {"event":13792896736}
+[2024-01-05 15:58:32.101] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_registerEventHandler ret 0 result {"result":0}
+[2024-01-05 15:59:43.774] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:59:43.774] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:59:43.777] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:59:43.777] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:59:43.900] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:59:43.900] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:59:43.900] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:59:43.900] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:59:43.931] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:59:43.931] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:59:43.931] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:59:43.931] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:59:44.042] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:59:44.042] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:59:44.042] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:59:44.042] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:59:56.425] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:59:56.425] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:59:56.425] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:59:56.425] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 15:59:56.465] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 15:59:56.465] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 15:59:56.465] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 15:59:56.466] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:01:18.275] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:01:18.275] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:01:18.275] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:01:18.275] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:01:18.324] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:01:18.324] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:01:18.324] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:01:18.324] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:01:18.371] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:01:18.371] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:01:18.371] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:01:18.371] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:01:27.459] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:01:27.459] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:01:27.459] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:01:27.459] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:01:27.519] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:01:27.519] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:01:27.519] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:01:27.519] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:01:27.569] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:01:27.569] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:01:27.569] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:01:27.569] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:01:27.620] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:01:27.620] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:01:27.621] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:01:27.621] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:02:18.790] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_leaveChannel params {}
+[2024-01-05 16:02:18.791] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_leaveChannel ret 0 result {"result":0}
+[2024-01-05 16:02:18.791] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_disableVideo params {}
+[2024-01-05 16:02:18.791] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_disableVideo ret 0 result {"result":0}
+[2024-01-05 16:02:18.796] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_release params {"sync":false}
+[2024-01-05 16:02:18.796] [815] [info] [iris_rtc_engine_impl.cc:194] IrisRtcEngineImpl __release
+[2024-01-05 16:02:18.796] [815] [info] [iris_rtc_device_manager_impl.cc:36] IrisRtcDeviceManagerImpl Release
+[2024-01-05 16:02:18.796] [815] [info] [iris_rtc_device_manager_wrapper.cc:791] IDeviceManagerWrapper release
+[2024-01-05 16:02:18.796] [815] [info] [iris_rtc_media_player_impl.cc:41] IrisMediaPlayerImpl Release
+[2024-01-05 16:02:18.796] [815] [info] [iris_rtc_media_player_wrapper.cc:39] IMediaPlayerWrapper release
+[2024-01-05 16:02:18.796] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:212] IrisLocalSpatialAudioEngineImpl Release
+[2024-01-05 16:02:18.796] [815] [info] [iris_rtc_spatial_audio_engine_wrapper.cc:388] ILocalSpatialAudioEngineWrapper release
+[2024-01-05 16:02:18.796] [815] [info] [iris_rtc_media_recorder_impl.cc:24] IrisMediaRecorderImpl Release
+[2024-01-05 16:02:18.796] [815] [info] [iris_rtc_music_center_impl.cc:26] IrisMusicCenterImpl Release
+[2024-01-05 16:02:18.796] [815] [info] [iris_rtc_music_center_wrapper.cc:27] IrisMusicContentCenterWrapper release
+[2024-01-05 16:02:18.796] [815] [info] [iris_rtc_engine_wrapper.cc:8134] IRtcEngineWrapper release
+[2024-01-05 16:02:18.804] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_release ret 0 result {"result":0}
+[2024-01-05 16:02:18.804] [815] [info] [iris_rtc_engine_impl.cc:42] IrisRtcEngineImpl Destroy
+[2024-01-05 16:02:18.804] [815] [info] [iris_rtc_music_center_impl.cc:16] IrisMusiImpl Destroy
+[2024-01-05 16:02:18.804] [815] [info] [iris_rtc_media_recorder_impl.cc:13] IrisMediaRecodrerImpl Destroy
+[2024-01-05 16:02:18.804] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:201] IrisLocalSpatialAudioEngineImpl Destroy
+[2024-01-05 16:02:18.804] [815] [info] [iris_rtc_media_player_impl.cc:26] IrisMediaPlayerImpl Destroy
+[2024-01-05 16:02:18.804] [815] [info] [iris_rtc_device_manager_impl.cc:25] IrisRtcDeviceManagerImpl Destroy
+[2024-01-05 16:10:58.037] [815] [info] [iris_rtc_engine_impl.cc:52] IrisRtcEngineImpl Initialize
+[2024-01-05 16:10:58.054] [815] [info] [iris_rtc_engine_impl.cc:94] api name RtcEngine_initialize params {"context":{"appId":"2a7***************445","context":0,"channelProfile":1,"license":"","audioScenario":3,"areaCode":4294967295,"logConfig":{"filePath":"./log.txt","fileSizeInKB":1024,"level":1},"useExternalEglContext":false,"autoRegisterAgoraExtensions":true}}
+[2024-01-05 16:10:58.056] [815] [info] [iris_logger.cc:114] reset logger to ./agora-iris.log
+[2024-01-05 16:10:58.056] [815] [info] [iris_logger.cc:116] iris version: 4.2.6-build.3 commit: a088bd46dc4c873c015c699de74569da00e5c8c8
+[2024-01-05 16:10:58.146] [815] [info] [iris_rtc_device_manager_impl.cc:29] IrisRtcDeviceManagerImpl Initialize
+[2024-01-05 16:10:58.175] [815] [info] [iris_rtc_media_player_impl.cc:30] IrisMediaPlayerImpl Initialize
+[2024-01-05 16:10:58.175] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:205] IrisLocalSpatialAudioEngineImpl Initialize
+[2024-01-05 16:10:58.175] [815] [info] [iris_rtc_media_recorder_impl.cc:17] IrisMediaRecorderImpl Initialize
+[2024-01-05 16:10:58.175] [815] [info] [iris_rtc_music_center_impl.cc:20] IrisMusicPlayerImpl Initialize
+[2024-01-05 16:10:58.175] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_initialize ret 0 result {"result":0}
+[2024-01-05 16:10:58.180] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_setAppType params {"appType":2}
+[2024-01-05 16:10:58.180] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_setAppType ret 0 result {"result":0}
+[2024-01-05 16:10:58.180] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":true}
+[2024-01-05 16:10:58.181] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:10:58.181] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":true}
+[2024-01-05 16:10:58.181] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:10:58.181] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 16:10:58.181] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 16:10:58.181] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 16:10:58.181] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 16:10:58.182] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 16:10:58.182] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 16:10:58.182] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 16:10:58.182] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 16:10:58.183] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_enableAudio params {}
+[2024-01-05 16:10:58.183] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_enableAudio ret 0 result {"result":0}
+[2024-01-05 16:10:58.183] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:226] api name LocalSpatialAudioEngine_initialize params {}
+[2024-01-05 16:10:58.183] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:240] api name LocalSpatialAudioEngine_initialize ret 0 result {"result":0}
+[2024-01-05 16:10:58.188] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_registerEventHandler params {"event":15448895584}
+[2024-01-05 16:10:58.188] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_registerEventHandler ret 0 result {"result":0}
+[2024-01-05 16:11:59.120] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:11:59.120] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:11:59.124] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:11:59.124] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:11:59.200] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:11:59.200] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:11:59.200] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:11:59.200] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:11:59.242] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:11:59.242] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:11:59.242] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:11:59.242] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:11:59.322] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:11:59.322] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:11:59.322] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:11:59.322] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:12:08.323] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:12:08.323] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:12:08.324] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:12:08.324] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:12:08.377] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:12:08.377] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:12:08.377] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:12:08.378] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:12:52.528] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_leaveChannel params {}
+[2024-01-05 16:12:52.528] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_leaveChannel ret 0 result {"result":0}
+[2024-01-05 16:12:52.529] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_disableVideo params {}
+[2024-01-05 16:12:52.530] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_disableVideo ret 0 result {"result":0}
+[2024-01-05 16:12:52.538] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_release params {"sync":false}
+[2024-01-05 16:12:52.538] [815] [info] [iris_rtc_engine_impl.cc:194] IrisRtcEngineImpl __release
+[2024-01-05 16:12:52.538] [815] [info] [iris_rtc_device_manager_impl.cc:36] IrisRtcDeviceManagerImpl Release
+[2024-01-05 16:12:52.538] [815] [info] [iris_rtc_device_manager_wrapper.cc:791] IDeviceManagerWrapper release
+[2024-01-05 16:12:52.538] [815] [info] [iris_rtc_media_player_impl.cc:41] IrisMediaPlayerImpl Release
+[2024-01-05 16:12:52.538] [815] [info] [iris_rtc_media_player_wrapper.cc:39] IMediaPlayerWrapper release
+[2024-01-05 16:12:52.538] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:212] IrisLocalSpatialAudioEngineImpl Release
+[2024-01-05 16:12:52.538] [815] [info] [iris_rtc_spatial_audio_engine_wrapper.cc:388] ILocalSpatialAudioEngineWrapper release
+[2024-01-05 16:12:52.538] [815] [info] [iris_rtc_media_recorder_impl.cc:24] IrisMediaRecorderImpl Release
+[2024-01-05 16:12:52.538] [815] [info] [iris_rtc_music_center_impl.cc:26] IrisMusicCenterImpl Release
+[2024-01-05 16:12:52.538] [815] [info] [iris_rtc_music_center_wrapper.cc:27] IrisMusicContentCenterWrapper release
+[2024-01-05 16:12:52.538] [815] [info] [iris_rtc_engine_wrapper.cc:8134] IRtcEngineWrapper release
+[2024-01-05 16:12:52.570] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_release ret 0 result {"result":0}
+[2024-01-05 16:12:52.570] [815] [info] [iris_rtc_engine_impl.cc:42] IrisRtcEngineImpl Destroy
+[2024-01-05 16:12:52.572] [815] [info] [iris_rtc_music_center_impl.cc:16] IrisMusiImpl Destroy
+[2024-01-05 16:12:52.572] [815] [info] [iris_rtc_media_recorder_impl.cc:13] IrisMediaRecodrerImpl Destroy
+[2024-01-05 16:12:52.572] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:201] IrisLocalSpatialAudioEngineImpl Destroy
+[2024-01-05 16:12:52.572] [815] [info] [iris_rtc_media_player_impl.cc:26] IrisMediaPlayerImpl Destroy
+[2024-01-05 16:12:52.572] [815] [info] [iris_rtc_device_manager_impl.cc:25] IrisRtcDeviceManagerImpl Destroy
+[2024-01-05 16:15:20.541] [815] [info] [iris_rtc_engine_impl.cc:52] IrisRtcEngineImpl Initialize
+[2024-01-05 16:15:20.558] [815] [info] [iris_rtc_engine_impl.cc:94] api name RtcEngine_initialize params {"context":{"appId":"2a7***************445","context":0,"channelProfile":1,"license":"","audioScenario":3,"areaCode":4294967295,"logConfig":{"filePath":"./log.txt","fileSizeInKB":1024,"level":1},"useExternalEglContext":false,"autoRegisterAgoraExtensions":true}}
+[2024-01-05 16:15:20.561] [815] [info] [iris_logger.cc:114] reset logger to ./agora-iris.log
+[2024-01-05 16:15:20.561] [815] [info] [iris_logger.cc:116] iris version: 4.2.6-build.3 commit: a088bd46dc4c873c015c699de74569da00e5c8c8
+[2024-01-05 16:15:20.599] [815] [info] [iris_rtc_device_manager_impl.cc:29] IrisRtcDeviceManagerImpl Initialize
+[2024-01-05 16:15:20.624] [815] [info] [iris_rtc_media_player_impl.cc:30] IrisMediaPlayerImpl Initialize
+[2024-01-05 16:15:20.624] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:205] IrisLocalSpatialAudioEngineImpl Initialize
+[2024-01-05 16:15:20.624] [815] [info] [iris_rtc_media_recorder_impl.cc:17] IrisMediaRecorderImpl Initialize
+[2024-01-05 16:15:20.624] [815] [info] [iris_rtc_music_center_impl.cc:20] IrisMusicPlayerImpl Initialize
+[2024-01-05 16:15:20.624] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_initialize ret 0 result {"result":0}
+[2024-01-05 16:15:20.629] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_setAppType params {"appType":2}
+[2024-01-05 16:15:20.629] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_setAppType ret 0 result {"result":0}
+[2024-01-05 16:15:20.629] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":true}
+[2024-01-05 16:15:20.629] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:15:20.629] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":true}
+[2024-01-05 16:15:20.629] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:15:20.630] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 16:15:20.630] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 16:15:20.630] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 16:15:20.630] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 16:15:20.631] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 16:15:20.631] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 16:15:20.631] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 16:15:20.631] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 16:15:20.631] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_enableAudio params {}
+[2024-01-05 16:15:20.631] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_enableAudio ret 0 result {"result":0}
+[2024-01-05 16:15:20.631] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:226] api name LocalSpatialAudioEngine_initialize params {}
+[2024-01-05 16:15:20.632] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:240] api name LocalSpatialAudioEngine_initialize ret 0 result {"result":0}
+[2024-01-05 16:15:20.636] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_registerEventHandler params {"event":14047235632}
+[2024-01-05 16:15:20.636] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_registerEventHandler ret 0 result {"result":0}
+[2024-01-05 16:16:15.125] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:16:15.125] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:16:15.129] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:16:15.129] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:16:15.250] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:16:15.250] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:16:15.250] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:16:15.250] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:16:15.542] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:16:15.542] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:16:15.542] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:16:15.542] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:16:15.610] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:16:15.610] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:16:15.610] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:16:15.610] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:16:22.176] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:16:22.176] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:16:22.177] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:16:22.177] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:16:22.228] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:16:22.228] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:16:22.228] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:16:22.228] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:16:34.557] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_release params {"sync":false}
+[2024-01-05 16:16:34.557] [815] [info] [iris_rtc_engine_impl.cc:194] IrisRtcEngineImpl __release
+[2024-01-05 16:16:34.557] [815] [info] [iris_rtc_device_manager_impl.cc:36] IrisRtcDeviceManagerImpl Release
+[2024-01-05 16:16:34.557] [815] [info] [iris_rtc_device_manager_wrapper.cc:791] IDeviceManagerWrapper release
+[2024-01-05 16:16:34.557] [815] [info] [iris_rtc_media_player_impl.cc:41] IrisMediaPlayerImpl Release
+[2024-01-05 16:16:34.557] [815] [info] [iris_rtc_media_player_wrapper.cc:39] IMediaPlayerWrapper release
+[2024-01-05 16:16:34.557] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:212] IrisLocalSpatialAudioEngineImpl Release
+[2024-01-05 16:16:34.557] [815] [info] [iris_rtc_spatial_audio_engine_wrapper.cc:388] ILocalSpatialAudioEngineWrapper release
+[2024-01-05 16:16:34.557] [815] [info] [iris_rtc_media_recorder_impl.cc:24] IrisMediaRecorderImpl Release
+[2024-01-05 16:16:34.557] [815] [info] [iris_rtc_music_center_impl.cc:26] IrisMusicCenterImpl Release
+[2024-01-05 16:16:34.557] [815] [info] [iris_rtc_music_center_wrapper.cc:27] IrisMusicContentCenterWrapper release
+[2024-01-05 16:16:34.557] [815] [info] [iris_rtc_engine_wrapper.cc:8134] IRtcEngineWrapper release
+[2024-01-05 16:16:34.566] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_release ret 0 result {"result":0}
+[2024-01-05 16:16:34.567] [815] [info] [iris_rtc_engine_impl.cc:42] IrisRtcEngineImpl Destroy
+[2024-01-05 16:16:34.567] [815] [info] [iris_rtc_music_center_impl.cc:16] IrisMusiImpl Destroy
+[2024-01-05 16:16:34.567] [815] [info] [iris_rtc_media_recorder_impl.cc:13] IrisMediaRecodrerImpl Destroy
+[2024-01-05 16:16:34.567] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:201] IrisLocalSpatialAudioEngineImpl Destroy
+[2024-01-05 16:16:34.567] [815] [info] [iris_rtc_media_player_impl.cc:26] IrisMediaPlayerImpl Destroy
+[2024-01-05 16:16:34.567] [815] [info] [iris_rtc_device_manager_impl.cc:25] IrisRtcDeviceManagerImpl Destroy
+[2024-01-05 16:21:31.457] [815] [info] [iris_rtc_engine_impl.cc:52] IrisRtcEngineImpl Initialize
+[2024-01-05 16:21:31.473] [815] [info] [iris_rtc_engine_impl.cc:94] api name RtcEngine_initialize params {"context":{"appId":"2a7***************445","context":0,"channelProfile":1,"license":"","audioScenario":3,"areaCode":4294967295,"logConfig":{"filePath":"./log.txt","fileSizeInKB":1024,"level":1},"useExternalEglContext":false,"autoRegisterAgoraExtensions":true}}
+[2024-01-05 16:21:31.474] [815] [info] [iris_logger.cc:114] reset logger to ./agora-iris.log
+[2024-01-05 16:21:31.474] [815] [info] [iris_logger.cc:116] iris version: 4.2.6-build.3 commit: a088bd46dc4c873c015c699de74569da00e5c8c8
+[2024-01-05 16:21:31.516] [815] [info] [iris_rtc_device_manager_impl.cc:29] IrisRtcDeviceManagerImpl Initialize
+[2024-01-05 16:21:31.540] [815] [info] [iris_rtc_media_player_impl.cc:30] IrisMediaPlayerImpl Initialize
+[2024-01-05 16:21:31.540] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:205] IrisLocalSpatialAudioEngineImpl Initialize
+[2024-01-05 16:21:31.540] [815] [info] [iris_rtc_media_recorder_impl.cc:17] IrisMediaRecorderImpl Initialize
+[2024-01-05 16:21:31.540] [815] [info] [iris_rtc_music_center_impl.cc:20] IrisMusicPlayerImpl Initialize
+[2024-01-05 16:21:31.540] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_initialize ret 0 result {"result":0}
+[2024-01-05 16:21:31.545] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_setAppType params {"appType":2}
+[2024-01-05 16:21:31.545] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_setAppType ret 0 result {"result":0}
+[2024-01-05 16:21:31.545] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":true}
+[2024-01-05 16:21:31.545] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:21:31.545] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":true}
+[2024-01-05 16:21:31.545] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:21:31.545] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 16:21:31.545] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 16:21:31.545] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 16:21:31.545] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 16:21:31.546] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 16:21:31.546] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 16:21:31.547] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 16:21:31.547] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 16:21:31.547] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_enableAudio params {}
+[2024-01-05 16:21:31.547] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_enableAudio ret 0 result {"result":0}
+[2024-01-05 16:21:31.547] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:226] api name LocalSpatialAudioEngine_initialize params {}
+[2024-01-05 16:21:31.547] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:240] api name LocalSpatialAudioEngine_initialize ret 0 result {"result":0}
+[2024-01-05 16:21:31.552] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_registerEventHandler params {"event":13082369968}
+[2024-01-05 16:21:31.552] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_registerEventHandler ret 0 result {"result":0}
+[2024-01-05 16:23:09.686] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_release params {"sync":false}
+[2024-01-05 16:23:09.686] [815] [info] [iris_rtc_engine_impl.cc:194] IrisRtcEngineImpl __release
+[2024-01-05 16:23:09.686] [815] [info] [iris_rtc_device_manager_impl.cc:36] IrisRtcDeviceManagerImpl Release
+[2024-01-05 16:23:09.686] [815] [info] [iris_rtc_device_manager_wrapper.cc:791] IDeviceManagerWrapper release
+[2024-01-05 16:23:09.686] [815] [info] [iris_rtc_media_player_impl.cc:41] IrisMediaPlayerImpl Release
+[2024-01-05 16:23:09.686] [815] [info] [iris_rtc_media_player_wrapper.cc:39] IMediaPlayerWrapper release
+[2024-01-05 16:23:09.686] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:212] IrisLocalSpatialAudioEngineImpl Release
+[2024-01-05 16:23:09.686] [815] [info] [iris_rtc_spatial_audio_engine_wrapper.cc:388] ILocalSpatialAudioEngineWrapper release
+[2024-01-05 16:23:09.686] [815] [info] [iris_rtc_media_recorder_impl.cc:24] IrisMediaRecorderImpl Release
+[2024-01-05 16:23:09.686] [815] [info] [iris_rtc_music_center_impl.cc:26] IrisMusicCenterImpl Release
+[2024-01-05 16:23:09.686] [815] [info] [iris_rtc_music_center_wrapper.cc:27] IrisMusicContentCenterWrapper release
+[2024-01-05 16:23:09.686] [815] [info] [iris_rtc_engine_wrapper.cc:8134] IRtcEngineWrapper release
+[2024-01-05 16:23:09.695] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_release ret 0 result {"result":0}
+[2024-01-05 16:23:09.695] [815] [info] [iris_rtc_engine_impl.cc:42] IrisRtcEngineImpl Destroy
+[2024-01-05 16:23:09.695] [815] [info] [iris_rtc_music_center_impl.cc:16] IrisMusiImpl Destroy
+[2024-01-05 16:23:09.695] [815] [info] [iris_rtc_media_recorder_impl.cc:13] IrisMediaRecodrerImpl Destroy
+[2024-01-05 16:23:09.695] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:201] IrisLocalSpatialAudioEngineImpl Destroy
+[2024-01-05 16:23:09.695] [815] [info] [iris_rtc_media_player_impl.cc:26] IrisMediaPlayerImpl Destroy
+[2024-01-05 16:23:09.695] [815] [info] [iris_rtc_device_manager_impl.cc:25] IrisRtcDeviceManagerImpl Destroy
+[2024-01-05 16:25:06.085] [815] [info] [iris_rtc_engine_impl.cc:52] IrisRtcEngineImpl Initialize
+[2024-01-05 16:25:06.113] [815] [info] [iris_rtc_engine_impl.cc:94] api name RtcEngine_initialize params {"context":{"appId":"2a7***************445","context":0,"channelProfile":1,"license":"","audioScenario":3,"areaCode":4294967295,"logConfig":{"filePath":"./log.txt","fileSizeInKB":1024,"level":1},"useExternalEglContext":false,"autoRegisterAgoraExtensions":true}}
+[2024-01-05 16:25:06.115] [815] [info] [iris_logger.cc:114] reset logger to ./agora-iris.log
+[2024-01-05 16:25:06.115] [815] [info] [iris_logger.cc:116] iris version: 4.2.6-build.3 commit: a088bd46dc4c873c015c699de74569da00e5c8c8
+[2024-01-05 16:25:06.157] [815] [info] [iris_rtc_device_manager_impl.cc:29] IrisRtcDeviceManagerImpl Initialize
+[2024-01-05 16:25:06.179] [815] [info] [iris_rtc_media_player_impl.cc:30] IrisMediaPlayerImpl Initialize
+[2024-01-05 16:25:06.179] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:205] IrisLocalSpatialAudioEngineImpl Initialize
+[2024-01-05 16:25:06.180] [815] [info] [iris_rtc_media_recorder_impl.cc:17] IrisMediaRecorderImpl Initialize
+[2024-01-05 16:25:06.180] [815] [info] [iris_rtc_music_center_impl.cc:20] IrisMusicPlayerImpl Initialize
+[2024-01-05 16:25:06.180] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_initialize ret 0 result {"result":0}
+[2024-01-05 16:25:06.185] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_setAppType params {"appType":2}
+[2024-01-05 16:25:06.185] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_setAppType ret 0 result {"result":0}
+[2024-01-05 16:25:06.185] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":true}
+[2024-01-05 16:25:06.185] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:25:06.185] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":true}
+[2024-01-05 16:25:06.185] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:25:06.186] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 16:25:06.186] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 16:25:06.186] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 16:25:06.186] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 16:25:06.187] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustRecordingSignalVolume params {"volume":100}
+[2024-01-05 16:25:06.187] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustRecordingSignalVolume ret 0 result {"result":0}
+[2024-01-05 16:25:06.187] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_adjustPlaybackSignalVolume params {"volume":100}
+[2024-01-05 16:25:06.187] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_adjustPlaybackSignalVolume ret 0 result {"result":0}
+[2024-01-05 16:25:06.187] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_enableAudio params {}
+[2024-01-05 16:25:06.187] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_enableAudio ret 0 result {"result":0}
+[2024-01-05 16:25:06.188] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:226] api name LocalSpatialAudioEngine_initialize params {}
+[2024-01-05 16:25:06.188] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:240] api name LocalSpatialAudioEngine_initialize ret 0 result {"result":0}
+[2024-01-05 16:25:06.192] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_registerEventHandler params {"event":16242203664}
+[2024-01-05 16:25:06.192] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_registerEventHandler ret 0 result {"result":0}
+[2024-01-05 16:25:32.900] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteAllRemoteAudioStreams params {"mute":false}
+[2024-01-05 16:25:32.900] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteAllRemoteAudioStreams ret 0 result {"result":0}
+[2024-01-05 16:25:32.902] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_muteLocalAudioStream params {"mute":false}
+[2024-01-05 16:25:32.902] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_muteLocalAudioStream ret 0 result {"result":0}
+[2024-01-05 16:27:24.606] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_leaveChannel params {}
+[2024-01-05 16:27:24.607] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_leaveChannel ret 0 result {"result":0}
+[2024-01-05 16:27:24.607] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_disableVideo params {}
+[2024-01-05 16:27:24.607] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_disableVideo ret 0 result {"result":0}
+[2024-01-05 16:27:24.612] [815] [info] [iris_rtc_engine_impl.cc:96] api name RtcEngine_release params {"sync":false}
+[2024-01-05 16:27:24.612] [815] [info] [iris_rtc_engine_impl.cc:194] IrisRtcEngineImpl __release
+[2024-01-05 16:27:24.612] [815] [info] [iris_rtc_device_manager_impl.cc:36] IrisRtcDeviceManagerImpl Release
+[2024-01-05 16:27:24.612] [815] [info] [iris_rtc_device_manager_wrapper.cc:791] IDeviceManagerWrapper release
+[2024-01-05 16:27:24.612] [815] [info] [iris_rtc_media_player_impl.cc:41] IrisMediaPlayerImpl Release
+[2024-01-05 16:27:24.612] [815] [info] [iris_rtc_media_player_wrapper.cc:39] IMediaPlayerWrapper release
+[2024-01-05 16:27:24.612] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:212] IrisLocalSpatialAudioEngineImpl Release
+[2024-01-05 16:27:24.612] [815] [info] [iris_rtc_spatial_audio_engine_wrapper.cc:388] ILocalSpatialAudioEngineWrapper release
+[2024-01-05 16:27:24.612] [815] [info] [iris_rtc_media_recorder_impl.cc:24] IrisMediaRecorderImpl Release
+[2024-01-05 16:27:24.612] [815] [info] [iris_rtc_music_center_impl.cc:26] IrisMusicCenterImpl Release
+[2024-01-05 16:27:24.612] [815] [info] [iris_rtc_music_center_wrapper.cc:27] IrisMusicContentCenterWrapper release
+[2024-01-05 16:27:24.612] [815] [info] [iris_rtc_engine_wrapper.cc:8134] IRtcEngineWrapper release
+[2024-01-05 16:27:24.620] [815] [info] [iris_rtc_engine_impl.cc:112] api name RtcEngine_release ret 0 result {"result":0}
+[2024-01-05 16:27:24.620] [815] [info] [iris_rtc_engine_impl.cc:42] IrisRtcEngineImpl Destroy
+[2024-01-05 16:27:24.620] [815] [info] [iris_rtc_music_center_impl.cc:16] IrisMusiImpl Destroy
+[2024-01-05 16:27:24.620] [815] [info] [iris_rtc_media_recorder_impl.cc:13] IrisMediaRecodrerImpl Destroy
+[2024-01-05 16:27:24.620] [815] [info] [iris_rtc_spatial_audio_engine_impl.cc:201] IrisLocalSpatialAudioEngineImpl Destroy
+[2024-01-05 16:27:24.620] [815] [info] [iris_rtc_media_player_impl.cc:26] IrisMediaPlayerImpl Destroy
+[2024-01-05 16:27:24.620] [815] [info] [iris_rtc_device_manager_impl.cc:25] IrisRtcDeviceManagerImpl Destroy

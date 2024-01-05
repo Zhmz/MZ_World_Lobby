@@ -1,0 +1,1736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{9D9CFEC5-AB67-6B3D-6632-6A9AA0886355}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp/bin/Debug/</OutputPath>
+    <DefineConstants>UNITY_2022_3_15;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;ENABLE_LOG;FISHNET;FISHNET_V3;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp/bin/Release/</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2022.3.15f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Users/zhmz/Documents/workspace/Tuwan_APP_Unity/Assets/FishNet/Plugins/CodeAnalysis/FishNet.CodeAnalysis.Analyzers.dll" />
+    <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
+    <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/SslConfigLoader.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/GifTexture.cs" />
+    <Compile Include="Assets/Core/Scripts/UI/UGuiForm.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IVideoDeviceManager.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Tools/PermissionHelper.cs" />
+    <Compile Include="Assets/Core/Scripts/UI/DialogForm.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/Trace/LineTrace.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/MusicContentCenter.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Event/RtcEngineEventHandler.cs" />
+    <Compile Include="Assets/Core/GIF/Examples/Scripts/Example/MobileMediaAndProGIF_Demo.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Observer/AudioEncodedFrameObserverNative.cs" />
+    <Compile Include="Assets/Core/Scripts/Base/GameEntry.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Types/IAgoraMusicContentCenterBase.cs" />
+    <Compile Include="Assets/Core/Scripts/Definition/DataStruct/ImpactData.cs" />
+    <Compile Include="Assets/Core/GIF/Common/Weather/World Weather Online/Scripts/TimeZoneAPI.cs" />
+    <Compile Include="Assets/RealToon/RealToon Tools/FrameByFrameRendering/FrameByFrameRendering_Manual.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityData/WeaponData.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/SceneInit.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/Logic/WheatCtrl.cs" />
+    <Compile Include="Assets/Core/GIF/Examples/Scripts/Example/GifTextureContent.cs" />
+    <Compile Include="Assets/Core/Scripts/Network/HttpRequestUtil.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Observer/VideoFrameObserverNative.cs" />
+    <Compile Include="Assets/Core/GIF/Common/FilePathName.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/PlaySvga.cs" />
+    <Compile Include="Assets/Core/Scripts/Const/SocketIOEnum.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Native/AgoraApiType.cs" />
+    <Compile Include="Assets/Core/Scripts/Proto/Http/CodeRequest.cs" />
+    <Compile Include="Assets/Core/GIF/Common/FileSaveUtil.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/VideoRender/VideoSurface.cs" />
+    <Compile Include="Assets/World/Script/WorldScript/ViewRotator.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/Core/CommonSocket.cs" />
+    <Compile Include="Assets/Core/Scripts/DataTable/DRAircraft.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/MusicPlayer/MusicPlayerExample.cs" />
+    <Compile Include="Assets/Home/Script/UI/MobLogin/DebugItem.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/AgoraGameObject.cs" />
+    <Compile Include="Assets/LoadingScreen/Content/Scripts/Runtime/UI/SceneLoaderCanvas.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityLogic/Bullet.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/Bayou.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IMetadataObserver.cs" />
+    <Compile Include="Assets/RealToon/RealToon Tools/CustomShadowResolution.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/SpatialAudioWithUsers/SpatialAudioWithUsers.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Impl/MusicContentCenterImpl.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifNeuQuant.cs" />
+    <Compile Include="Assets/LoadingScreen/Content/Scripts/Internal/Enum/LoadingType.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IMediaRecorderObserver.cs" />
+    <Compile Include="Assets/Core/GIF/GifManagers/ProGifManager.cs" />
+    <Compile Include="Assets/RealToon/RealToon Shaders/Effects/DeNorSob Outline/DeNorSobOutline.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Types/IAgoraRhythmPlayerBase.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/AudioMixing/AudioMixing.cs" />
+    <Compile Include="Assets/Core/GIF/GifManagers/PGif.cs" />
+    <Compile Include="Assets/Core/Scripts/DataTable/DRScene.cs" />
+    <Compile Include="Assets/Core/GIF/Common/Request/WebRequestHandler.cs" />
+    <Compile Include="Assets/Core/Scripts/Network/NetManager.cs" />
+    <Compile Include="Assets/Core/Scripts/Launch/TuwanFramework.cs" />
+    <Compile Include="Assets/Core/GIF/Common/GiphyJson.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifTexturesToGIF.cs" />
+    <Compile Include="Assets/Core/Scripts/Network/PacketBase.cs" />
+    <Compile Include="Assets/Core/GIF/Common/SelfCountdown.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/AssemblyInfo.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityLogic/Asteroid.cs" />
+    <Compile Include="Assets/Core/Scripts/GameData/Config.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/Scripts/Chat/ChatInfo.cs" />
+    <Compile Include="Assets/Core/GIF/Examples/Scripts/Example/ProGifPreviewSharePanel.cs" />
+    <Compile Include="Assets/Core/Scripts/Sound/SoundExtension.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifLzwEncoder.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Types/IAgoraMediaEngine.cs" />
+    <Compile Include="Assets/LoadingScreen/Example/Script/bl_DemoLoadedScene.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/AppIdInput/AppIdInput.cs" />
+    <Compile Include="Assets/Core/Scripts/Base/GameEntry.Custom.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/VideoRender/TextureManagerYUV.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/MediaRecorder.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Common/ReadHelper.cs" />
+    <Compile Include="Assets/Core/Scripts/Network/CSPacketHeader.cs" />
+    <Compile Include="Assets/Core/Scripts/Proto/Socket/Response/WheatResponse..cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Types/IAgoraLogBase.cs" />
+    <Compile Include="Assets/World/Script/WorldScript/Player/Player.cs" />
+    <Compile Include="Assets/Core/GIF/Common/Weather/World Weather Online/Scripts/SearchLocationAPI.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/SpatialAudio.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Tools/litjson-0.17.0/src/LitJson/JsonException.cs" />
+    <Compile Include="Assets/Core/GIF/Common/Weather/World Weather Online/Scripts/LocalHistoryAPI.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Common/Utils.cs" />
+    <Compile Include="Assets/Core/Scripts/Utility/WebUtility.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/CustomCaptureAudio/CustomCaptureAudio.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Observer/MediaPlayerAudioSpectrumObserverNative.cs" />
+    <Compile Include="Assets/Core/Scripts/Network/PacketHandlerBase.cs" />
+    <Compile Include="Assets/Core/GIF/Components/ProGifPlayerHandler/ProGifPlayerHandler.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/Core/Supporting.cs" />
+    <Compile Include="Assets/World/Script/WorldScript/TransportTrigger.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IAudioDeviceManager.cs" />
+    <Compile Include="Assets/Core/Scripts/DataTable/DRThruster.cs" />
+    <Compile Include="Assets/World/Script/UI/PlayerInfo/PlayerInfoForm.cs" />
+    <Compile Include="Assets/Core/Scripts/Procedure/ProcedureCheckVersion.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/DeviceManager/DeviceManager.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Tools/RequestToken.cs" />
+    <Compile Include="Assets/Core/Scripts/Procedure/ProcedureChangeScene.cs" />
+    <Compile Include="Assets/Core/Scripts/Proto/Socket/Request/LoginSignRequest.cs" />
+    <Compile Include="Assets/Core/Scripts/SDK/QuickLogin/ClickEventListener.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/Scripts/Chat/OpenAIReply.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IMediaRecorder.cs" />
+    <Compile Include="Assets/Core/Scripts/UI/UIExtension.cs" />
+    <Compile Include="Assets/Core/Scripts/SDK/QuickLogin/QuickpassPreCallback.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Types/Base.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Tools/litjson-0.17.0/src/LitJson/Lexer.cs" />
+    <Compile Include="Assets/Core/Scripts/Network/NetworkChannelHelper.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IVideoEncodedFrameObserver.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/Scripts/Chat/ChatUtils.cs" />
+    <Compile Include="Assets/Core/GIF/Common/Weather/World Weather Online/Scripts/WWOApiHelper.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Tools/litjson-0.17.0/src/LitJson/IJsonWrapper.cs" />
+    <Compile Include="Assets/LoadingScreen/Content/Scripts/Runtime/Main/bl_SceneLoaderManager.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/ProcessAudioRawData/ProcessAudioRawData.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/JoinChannelVideoToken/JoinChannelVideoToken.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Impl/MediaPlayerCacheManagerImpl.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IVideoFrameObserver.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityLogic/Aircraft.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IMediaPlayerCacheManager.cs" />
+    <Compile Include="Assets/Core/Scripts/DataTable/DRArmor.cs" />
+    <Compile Include="Assets/Core/Scripts/Procedure/ProcedureCheckResources.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/Utils/BezierUtils.cs" />
+    <Compile Include="Assets/Core/Scripts/Proto/Http/UserInfoResponse.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IMusicContentCenterEventHandler.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/Metadata/MetadataSample.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Observer/MediaRecorderObserverNative.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/MusicPlayer.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Server/ServerHandshake.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Common/ReceiveLoop.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/LoadScene.cs" />
+    <Compile Include="Assets/Core/Scripts/Network/CSPacketBase.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Observer/MetaDataObserverNative.cs" />
+    <Compile Include="Assets/RealToon/RealToon Tools/SmoothObjectNormalHelper.cs" />
+    <Compile Include="Assets/Core/Svga/SvgaPlayer/Proto/Svga.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifPlayerGuiTexture.cs" />
+    <Compile Include="Assets/Core/GIF/Common/GiphyManager.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Tools/RingBuffer.cs" />
+    <Compile Include="Assets/Home/Script/UI/MobLogin/LoginForm.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityLogic/Thruster.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Event/MediaRecorderObserver.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityData/AircraftData.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/ChannelMediaRelay/ChannelMediaRelay.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/JoinChannelWithUserAccount/JoinChannelWithUserAccount.cs" />
+    <Compile Include="Assets/Core/Scripts/Network/SCPacketHeader.cs" />
+    <Compile Include="Assets/Core/Scripts/Network/TimeStamp.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/SetEncryption/EncryptionSample.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/MediaPlayer/MediaPlayerExample.cs" />
+    <Compile Include="Assets/Core/Scripts/Procedure/ProcedureLaunch.cs" />
+    <Compile Include="Assets/Core/Scripts/Proto/Http/LoginRoomInfoData.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/Scripts/Chat/ToolBarCall.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Server/ServerSslHelper.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Event/CloudAudioEngineEventHandler.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IRtcEngineEventHandler.cs" />
+    <Compile Include="Assets/Core/Svga/SvgaPlayer/SvagPlayerData.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IAudioFrameObserver.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/Plugin/PluginSceneSample.cs" />
+    <Compile Include="Assets/World/Script/SVGA/SVGAUtils.cs" />
+    <Compile Include="Assets/World/Script/WorldStarter.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Server/WebSocketServer.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Client/StandAlone/WebSocketClientStandAlone.cs" />
+    <Compile Include="Assets/Core/GIF/Examples/Scripts/Example/TexturesToGIF_Demo.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityLogic/Weapon.cs" />
+    <Compile Include="Assets/World/Suntail Village/Scripts/PlayerInteractions.cs" />
+    <Compile Include="Assets/Core/Scripts/DataTable/BinaryReaderExtension.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ImageResizer.cs" />
+    <Compile Include="Assets/LoadingScreen/Content/Scripts/Runtime/Utils/bl_TriggerLoad.cs" />
+    <Compile Include="Assets/Core/Scripts/Network/HashEncrypt.cs" />
+    <Compile Include="Assets/Core/Svga/SvgaPlayer/SvgaPlayer.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Common/TcpConfig.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Client/StandAlone/ClientHandshake.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Client/SimpleWebClient.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Native/AgoraMediaBaseNative.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifEncoder.cs" />
+    <Compile Include="Assets/Core/GIF/Common/OnEnableTrigger.cs" />
+    <Compile Include="Assets/Core/Scripts/Definition/Constant/Constant.AssetPriority.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Tools/AgoraUtil.cs" />
+    <Compile Include="Assets/World/Suntail Village/Scripts/SuntailStartDemo.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IMediaPlayer.cs" />
+    <Compile Include="Assets/Core/Scripts/DataTable/DRUIForm.cs" />
+    <Compile Include="Assets/Core/Scripts/DataTable/DRWeapon.cs" />
+    <Compile Include="Assets/Core/Scripts/Proto/Http/LoginResponse.cs" />
+    <Compile Include="Assets/Home/Script/Logic/Login.cs" />
+    <Compile Include="Assets/FishNet/Upgrading/UpgradeFromMirrorMenu.cs" />
+    <Compile Include="Assets/LoadingScreen/Content/Scripts/Runtime/Utils/bl_ButtonSceneLoad.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/LookAtCamera.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Tools/AgoraCallbackObject.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityLogic/TargetableObject.cs" />
+    <Compile Include="Assets/Core/Scripts/DataTable/DRSound.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/Entity/GiftItemResponse.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifPlayerRenderer.cs" />
+    <Compile Include="Assets/Core/Scripts/Definition/Constant/Constant.Layer.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Types/IAgoraRtcEngineBase.cs" />
+    <Compile Include="Assets/Core/TutorialInfo/Scripts/Readme.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ImageRotator.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifDecoder.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/Entity/GiftResponse.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/Core/BidirectionalDictionary.cs" />
+    <Compile Include="Assets/Core/GIF/Common/Weather/World Weather Online/Scripts/WWO_API_COM.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Tools/litjson-0.17.0/src/LitJson/JsonData.cs" />
+    <Compile Include="Assets/Core/GIF/Common/Weather/World Weather Online/Scripts/SkiWeatherAPI.cs" />
+    <Compile Include="Assets/Core/GIF/Examples/Scripts/Example/ProGifGiphyDemo.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityData/AccessoryObjectData.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/Scripts/Chat/testGUI.cs" />
+    <Compile Include="Assets/Home/Script/Starter/LoginStarter.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Common/Connection.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifRecorder.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/Core/SslConfiguration.cs" />
+    <Compile Include="Assets/Core/Scripts/DataTable/DRUISound.cs" />
+    <Compile Include="Assets/Core/Scripts/DataTable/DataTableExtension.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/LobbyBGM/LobbyBGMItem.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/SpatialAudioWithMediaPlayer/SpatialAudioWithMediaPlayer.cs" />
+    <Compile Include="Assets/LoadingScreen/Example/Script/bl_LoadingScreenExample.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Observer/AudioPcmFrameSinkNative.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Server/SimpleWebServer.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Impl/MediaRecorderImpl.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/LobbyBGM/LobbyBGMForm.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/Scripts/Chat/EnterChatTag.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Types/IAgoraRtcEngineExBase.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/StartLocalVideoTranscoder/StartLocalVideoTranscoder.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/ISpatialAudio.cs" />
+    <Compile Include="Assets/Core/Scripts/Network/PacketType.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/ObjectPool/PoolObject.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/GiftBag/GiftForm.cs" />
+    <Compile Include="Assets/Core/Scripts/Procedure/ProcedureHome.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityData/TargetableObjectData.cs" />
+    <Compile Include="Assets/Core/GIF/Common/SDemoAnimation.cs" />
+    <Compile Include="Assets/Core/Scripts/DataTable/DRMusic.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Tools/AgoraLog.cs" />
+    <Compile Include="Assets/World/Suntail Village/Scripts/PlayerController.cs" />
+    <Compile Include="Assets/Core/Scripts/Procedure/ProcedurePreload.cs" />
+    <Compile Include="Assets/Core/GIF/Common/Weather/World Weather Online/Scripts/MarineHistoryAPI.cs" />
+    <Compile Include="Assets/LoadingScreen/Content/Scripts/Internal/Structures/bl_SceneLoaderInfo.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Types/AgoraMediaPlayerTypesBase.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityData/ThrusterData.cs" />
+    <Compile Include="Assets/Core/Scripts/Definition/Enum/CampType.cs" />
+    <Compile Include="Assets/Core/Scripts/Procedure/ProcedureUpdateResources.cs" />
+    <Compile Include="Assets/RealToon/RealToon Tools/FrameByFrameRendering/FrameByFrameRendering_Default.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Tools/litjson-0.17.0/src/LitJson/JsonMockWrapper.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IRtcEngine.cs" />
+    <Compile Include="Assets/Core/Scripts/Base/GameEntry.Builtin.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/VideoRender/VideoRender.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Tools/litjson-0.17.0/src/LitJson/Netstandard15Polyfill.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/StartRtmpStreamWithTranscoding/StartRtmpStreamWithTranscoding.cs" />
+    <Compile Include="Assets/Core/Scripts/UI/UpdateResourceForm.cs" />
+    <Compile Include="Assets/World/Script/WorldScript/Camera/CameraControl.cs" />
+    <Compile Include="Assets/Core/Scripts/Localization/XmlLocalizationHelper.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Common/SendLoop.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/ObjectPool/PoolManager.cs" />
+    <Compile Include="Assets/Lobby/Script/Starter/LobbyStarter.cs" />
+    <Compile Include="Assets/Core/Scripts/SDK/QuickLogin/QuickpassHandler.cs" />
+    <Compile Include="Assets/Core/Scripts/Procedure/ProcedureSplash.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Types/IAgoraSpatialAudioBase.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/MediaPlayerCacheManager.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Observer/MediaPlayerSourceObserverNative.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/NetworkInit.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityData/BulletData.cs" />
+    <Compile Include="Assets/World/Suntail Village/Scripts/PhysicsObject.cs" />
+    <Compile Include="Assets/Core/Scripts/Procedure/ProcedureVerifyResources.cs" />
+    <Compile Include="Assets/Core/Scripts/Const/SocketEventName.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IMediaPlayerSourceObserver.cs" />
+    <Compile Include="Assets/Core/GIF/Examples/Scripts/Example/ProGifDemoMgr.cs" />
+    <Compile Include="Assets/Core/Scripts/Procedure/ProcedureUpdateVersion.cs" />
+    <Compile Include="Assets/World/Script/WorldScript/TuwanAgoraUtils.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Observer/MediaPlayerCustomDataProviderNative.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Tools/litjson-0.17.0/src/LitJson/ParserToken.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityLogic/Effect.cs" />
+    <Compile Include="Assets/Core/Scripts/UI/CommonButton.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Tools/AgoraOptional.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IMusicPlayer.cs" />
+    <Compile Include="Assets/Core/Scripts/UI/UGuiGroupHelper.cs" />
+    <Compile Include="Assets/Core/Scripts/Procedure/ProcedureLogin.cs" />
+    <Compile Include="Assets/Core/Scripts/Network/PacketHeaderBase.cs" />
+    <Compile Include="Assets/Core/Scripts/Proto/Socket/Response/ShowGiftResponse.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/StartDirectCdnStreaming/StartDirectCdnStreaming.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/VoiceChanger/VoiceChanger.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Types/AgoraMediaBase.cs" />
+    <Compile Include="Assets/Core/Scripts/Proto/Http/LoginRoomInfoResponse.cs" />
+    <Compile Include="Assets/Core/Svga/SvgaPlayer/SVGAContent.cs" />
+    <Compile Include="Assets/Core/Scripts/Procedure/ProcedureInitResources.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/AudioDeviceManager.cs" />
+    <Compile Include="Assets/Core/Scripts/BuiltinData/BuiltinDataComponent.cs" />
+    <Compile Include="Assets/World/Script/WorldScript/Camera/CameraController.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/Core/ClientSocket.cs" />
+    <Compile Include="Assets/Core/Scripts/Network/Packet/CSHeartBeat.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifInfo.cs" />
+    <Compile Include="Assets/Core/Scripts/UI/DialogParams.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/ObjectPool/ResPath.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifPlayer.cs" />
+    <Compile Include="Assets/Core/Scripts/Network/SCPacketBase.cs" />
+    <Compile Include="Assets/Lobby/Script/SVGA/SVGAOnUIForm.cs" />
+    <Compile Include="Assets/Core/GIF/Common/SDemoControl.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityData/AsteroidData.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityData/ArmorData.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/StreamMessage/StreamMessage.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifPlayerComponent.cs" />
+    <Compile Include="Assets/Core/Scripts/Definition/DataStruct/VersionInfo.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Common/BufferPool.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/VideoRender/TextureManager.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IMusicContentCenter.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifDeWorker.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityLogic/Armor.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityData/EntityData.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/Player/PlayerClickMovement.cs" />
+    <Compile Include="Assets/Core/GIF/EditorExtensions/CodelessProGifRecorder.cs" />
+    <Compile Include="Assets/Core/Scripts/Proto/Http/SendGiftResponse.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/LobbySettings/LobbySettingsForm.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Common/Constants.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Common/MessageProcessor.cs" />
+    <Compile Include="Assets/Core/Scripts/Proto/Socket/Request/LoginSignRequestData.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/Logic/GiftBag.cs" />
+    <Compile Include="Assets/Core/Scripts/Network/Packet/SCHeartBeat.cs" />
+    <Compile Include="Assets/Core/Scripts/Const/Store.cs" />
+    <Compile Include="Assets/Core/Scripts/Definition/Enum/RelationType.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IAudioEncodedFrameObserver.cs" />
+    <Compile Include="Assets/World/Suntail Village/Scripts/LightCulling.cs" />
+    <Compile Include="Assets/Core/GIF/Common/Weather/World Weather Online/Scripts/AstronomyAPI.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Tools/UIElementDragger.cs" />
+    <Compile Include="Assets/World/Suntail Village/Scripts/Door.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityData/MyAircraftData.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/VideoDeviceManager.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifPlayerRawImage.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/MediaPlayerWithCustomDataProvider/MediaPlayerWithCustomDataProviderExample.cs" />
+    <Compile Include="Assets/Core/Scripts/Utils/SocketManger.cs" />
+    <Compile Include="Assets/Core/Svga/SvgaPlayer/SvgaPlayerAnimationcontroller.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Basic/JoinChannelAudio/JoinChannelAudio.cs" />
+    <Compile Include="Assets/Core/GIF/Examples/Scripts/Example/SimpleStartDemo.cs" />
+    <Compile Include="Assets/Core/GIF/Common/SelfAnimation.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IAudioSpectrumObserver.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Impl/MediaPlayerImpl.cs" />
+    <Compile Include="Assets/Core/GIF/Common/Request/WebRequestHandlerPlus.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/Scripts/Chat/EmojiListBox.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Tools/AgoraCallbackQueue.cs" />
+    <Compile Include="Assets/Core/Scripts/UI/UIFormId.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/GiftBag/GiftItem.cs" />
+    <Compile Include="Assets/Core/Scripts/Proto/Socket/Request/LoginPlatform.cs" />
+    <Compile Include="Assets/Home/Script/Starter/HomeStarter.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/Trace/ArcTrace.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Tools/litjson-0.17.0/src/LitJson/JsonWriter.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Observer/AudioFrameObserverNative.cs" />
+    <Compile Include="Assets/Core/Scripts/Event/SwitchProcedureSuccessEventArgs.cs" />
+    <Compile Include="Assets/Core/Scripts/Procedure/ProcedureLobby.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Common/Log.cs" />
+    <Compile Include="Assets/LoadingScreen/Content/Scripts/Runtime/Main/bl_SceneLoader.cs" />
+    <Compile Include="Assets/Core/GIF/Common/Weather/World Weather Online/Scenes/WWOPremiumApiDemo.cs" />
+    <Compile Include="Assets/Core/Scripts/Procedure/ProcedureWorld.cs" />
+    <Compile Include="Assets/Core/Scripts/GameData/LobbyData.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Impl/SpatialAudioEngineImpl.cs" />
+    <Compile Include="Assets/Core/Scripts/Utility/AssetUtility.cs" />
+    <Compile Include="Assets/Core/GIF/SocialShare/GifSocialShare.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/Scripts/ChatBehaviour.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/Entity/Tab.cs" />
+    <Compile Include="Assets/ParrelSync/Examples/CustomArgumentExample.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/Scripts/Utils.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IMediaPlayerCustomDataProvider.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityData/EffectData.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/Scripts/Chat/ChatItem.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/AudioSpectrum/AudioSpectrum.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityExtension.cs" />
+    <Compile Include="Assets/Home/Script/UI/MobLogin/DebugForm.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Types/AgoraBase.cs" />
+    <Compile Include="Assets/Core/Scripts/Const/API.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Event/MediaPlayerSourceObserver.cs" />
+    <Compile Include="Assets/Core/GIF/Examples/Scripts/Example/ProGifControlPanel.cs" />
+    <Compile Include="Assets/Core/Scripts/SDK/QuickLogin/QuickpassCallback.cs" />
+    <Compile Include="Assets/Core/Scripts/Utility/GameViewUtils.cs" />
+    <Compile Include="Assets/Core/Scripts/Utils/TuwanUtils.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/Scripts/ChatUI.cs" />
+    <Compile Include="Assets/Home/Script/UI/Home/HomeForm.cs" />
+    <Compile Include="Assets/World/Script/WorldScript/PlayerMovement.cs" />
+    <Compile Include="Assets/Core/GIF/Examples/Scripts/Example/ProGifPlayerRendererDemo.cs" />
+    <Compile Include="Assets/Core/Scripts/UserData/GiftFormUserData.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Client/StandAlone/ClientSslHelper.cs" />
+    <Compile Include="Assets/Core/GIF/Examples/Scripts/Example/ProGifPlayerPanel.cs" />
+    <Compile Include="Assets/RealToon/RealToon Shaders/Effects/DeNorSob Outline/DepthNormalsFeature.cs" />
+    <Compile Include="Assets/Core/Scripts/Utility/LitJsonHelper.cs" />
+    <Compile Include="Assets/Core/Scripts/Procedure/ProcedureBase.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Tools/Logger.cs" />
+    <Compile Include="Assets/Core/Scripts/Scene/TuwanSceneUtils.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/Scripts/Chat/testAutoReply.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/MediaPlayer.cs" />
+    <Compile Include="Assets/Core/Scripts/DataTable/DREntity.cs" />
+    <Compile Include="Assets/Core/GIF/Common/Weather/World Weather Online/Scripts/LocalWeatherAPI.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/Chat/LobbyChat.cs" />
+    <Compile Include="Assets/Core/Scripts/Proto/Http/MoneyResponse.cs" />
+    <Compile Include="Assets/Core/GIF/Common/Weather/World Weather Online/Scripts/MarineWeatherAPI.cs" />
+    <Compile Include="Assets/Core/Scripts/Definition/DataStruct/BuildInfo.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Home.cs" />
+    <Compile Include="Assets/World/Script/WorldScript/TuwanNetworkInit.cs" />
+    <Compile Include="Assets/Home/Script/Entity/LoginSuccessEventArgs.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Common/EventType.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityLogic/Entity.cs" />
+    <Compile Include="Assets/Core/GIF/Examples/Scripts/Example/MultipleCameraDemo.cs" />
+    <Compile Include="Assets/Core/GIF/Common/DImageDisplayHandler.cs" />
+    <Compile Include="Assets/Core/Scripts/Proto/Http/SMSLoginRequest.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/RequestMicItem.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Observer/RtcEngineEventHandlerNative.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/Trace/BezierTrace.cs" />
+    <Compile Include="Assets/Core/GIF/Common/Request/RequestHandler.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Impl/MusicPlayerImpl.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Native/AgoraRtcApiNative.cs" />
+    <Compile Include="Assets/World/Suntail Village/Scripts/AudioZoneControl.cs" />
+    <Compile Include="Assets/Core/Scripts/SDK/QuickLogin/CustomViewListener.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/Scripts/Chat/UploadImg.cs" />
+    <Compile Include="Assets/Core/Scripts/Utility/AIUtility.cs" />
+    <Compile Include="Assets/World/Script/WorldScript/IpInfo.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Impl/VideoDeviceManagerImpl.cs" />
+    <Compile Include="Assets/Core/Scripts/Proto/Http/UserInfoResponsedData.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Observer/MusicContentCenterEventHandlerNative.cs" />
+    <Compile Include="Assets/Home/Script/UI/MobileLogin/MobileLoginForm.cs" />
+    <Compile Include="Assets/Lobby/Script/Scripts/Trace/BaseTrace.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/CustomRenderAudio/CustomRenderAudio.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Tools/ObsoleteMethodWarning.cs" />
+    <Compile Include="Assets/Core/Scripts/Definition/Constant/Constant.Setting.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifRecorderComponent.cs" />
+    <Compile Include="Assets/Core/Scripts/Utility/ScreenUtils.cs" />
+    <Compile Include="Assets/Core/GIF/Common/DCanvasScalerHandler.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifReflectionUtils.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifPlayerImage.cs" />
+    <Compile Include="Assets/Core/Svga/SvgaPlayer/Shader/ShaderPropertyController.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Observer/AudioSpectrumObserverNative.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Impl/RtcEngineImpl.cs" />
+    <Compile Include="Assets/Core/GIF/Examples/Scripts/Example/SetBytesDataDemo.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/RequestMicForm.cs" />
+    <Compile Include="Assets/Lobby/Script/UI/LobbyForm.cs" />
+    <Compile Include="Assets/Core/GIF/Examples/Scripts/Example/ProGifTexture2DPlayer_Demo.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/MediaRecorder/MediaRecorder.cs" />
+    <Compile Include="Assets/World/Script/WorldScript/Rocker.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Tools/litjson-0.17.0/src/LitJson/JsonReader.cs" />
+    <Compile Include="Assets/LoadingScreen/Content/Scripts/Internal/Enum/bl_SceneLoaderSkip.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Impl/AudioDeviceManagerImpl.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Tools/litjson-0.17.0/src/LitJson/JsonMapper.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/Core/ServerSocket.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifPlayerTexture2D.cs" />
+    <Compile Include="Assets/World/Script/WorldScript/AgoraManager.cs" />
+    <Compile Include="Assets/LoadingScreen/Content/Scripts/Runtime/UI/bl_LoadingScreenUI.cs" />
+    <Compile Include="Assets/Core/Scripts/Network/PacketHandler/SCHeartBeatHandler.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/RtcEngine.cs" />
+    <Compile Include="Assets/Core/Scripts/Entity/EntityLogic/MyAircraft.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/API-Example/Examples/Advanced/StartRhythmPlayer/StartRhythmPlayer.cs" />
+    <Compile Include="Assets/FishNet/Upgrading/MirrorUpgrade.cs" />
+    <Compile Include="Assets/Core/Scripts/Debugger/ChangeLanguageDebuggerWindow.cs" />
+    <Compile Include="Assets/FishNet/Plugins/Bayou/SimpleWebTransport/Common/Message.cs" />
+    <Compile Include="Assets/Core/GIF/Lib/ProGifWorker.cs" />
+    <Compile Include="Assets/World/Script/UI/WorldForm.cs" />
+    <Compile Include="Assets/Core/Scripts/Proto/Socket/Response/SocketResponse.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/Impl/Private/Observer/VideoEncodedImageReceiverNative.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/IAudioPcmFrameSink.cs" />
+    <Compile Include="Assets/Core/Scripts/DataTable/DRAsteroid.cs" />
+    <Compile Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Code/Rtc/VideoRender/VideoSurfaceYUV.cs" />
+    <Compile Include="Assets/World/Script/WorldScript/PlayerAgoraView.cs" />
+    <Compile Include="Assets/LoadingScreen/Content/Scripts/Internal/Global/bl_SceneLoaderUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/Core/Configs/DefaultDictionary.xml" />
+    <None Include="Assets/Core/Localization/ChineseTraditional/Dictionaries/Default.xml" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/Home/Libs/BouncyCastle.Cryptography.dll" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Resources/Unlit-RendererShader601.shader" />
+    <None Include="Assets/Core/GIF/Common/Weather/World Weather Online/docs/notes.txt" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/FishNet/Plugins/CodeAnalysis/FishNet.CodeAnalysis.dll" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/video_enc.dll" />
+    <None Include="Assets/Core/DataTables/UISound.txt" />
+    <None Include="Assets/FishNet/Plugins/CodeAnalysis/README.txt" />
+    <None Include="Assets/FishNet/LICENSE.txt" />
+    <None Include="Assets/FishNet/Plugins/CodeAnalysis/LICENSE.txt" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora_face_detection_extension.dll" />
+    <None Include="Assets/Core/Localization/English/Dictionaries/Default.xml" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/Core/Configs/DefaultConfig.txt" />
+    <None Include="Assets/Core/Configs/ResourceBuilder.xml" />
+    <None Include="Assets/FishNet/VERSION.txt" />
+    <None Include="Assets/Framework/Libraries/link.xml" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora_clear_vision_extension.dll" />
+    <None Include="Assets/World/Shaders/SyntyStudios_EmissiveScroll.shader" />
+    <None Include="Assets/Core/Configs/ResourceCollection.xml" />
+    <None Include="Assets/World/Suntail Village/Shaders/Suntail_Water.shader" />
+    <None Include="Assets/Core/DataTables/UIForm.txt" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora_segmentation_extension.dll" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora-soundtouch.dll" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/World/Suntail Village/Shaders/Suntail_Surface.shader" />
+    <None Include="Assets/Core/Configs/DataTableCodeTemplate.txt" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora-core.dll" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/AgoraRtcWrapper.dll" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Resources/UI-RendererShader601.shader" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora_content_inspect_extension.dll" />
+    <None Include="Assets/Core/DataTables/Sound.txt" />
+    <None Include="Assets/LoadingScreen/Content/Scripts/Internal/Plugins/TutorialWizardLoadingScreen.dll" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/glfw3.dll" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora_video_quality_analyzer_extension.dll" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora_screen_capture_extension.dll" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/agora_rtc_sdk.dll" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+    <None Include="Assets/Core/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMP_SDF.shader" />
+    <None Include="Assets/ParrelSync/VERSION.txt" />
+    <None Include="Assets/FishNet/DOCUMENTATION.txt" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets/Core/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+    <None Include="Assets/FishNet/Plugins/CodeAnalysis/FishNet.CodeAnalysis.Analyzers.dll" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/Core/Configs/BuildSettings.xml" />
+    <None Include="Assets/Core/Svga/SvgaPlayer/Shader/SVGAShader.shader" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora-ffmpeg.dll" />
+    <None Include="Assets/Core/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora-wgc.dll" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora_spatial_audio_extension.dll" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora_udrm3_extension.dll" />
+    <None Include="Assets/Core/Localization/ChineseSimplified/Dictionaries/Default.xml" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora_audio_beauty_extension.dll" />
+    <None Include="Assets/Core/DataTables/Scene.txt" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/video_dec.dll" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora-fdkaac.dll" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora_video_encoder_extension.dll" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora_ai_echo_cancellation_extension.dll" />
+    <None Include="Assets/Core/Libraries/LitJson.dll" />
+    <None Include="Assets/Framework/Libraries/ICSharpCode.SharpZipLib.dll" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/World/Suntail Village/Shaders/Suntail_Foliage.shader" />
+    <None Include="Assets/World/Shaders/SyntyStudios_FlipbookCutout.shader" />
+    <None Include="Assets/Core/Localization/Korean/Dictionaries/Default.xml" />
+    <None Include="Assets/Core/Configs/ResourceEditor.xml" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora_video_decoder_extension.dll" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets/Core/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora_drm_loader_extension.dll" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/Core/Configs/BuildInfo.txt" />
+    <None Include="Assets/World/Shaders/SyntyStudios_EmissiveColourChange.shader" />
+    <None Include="Assets/Core/Libraries/protobuf-net.dll" />
+    <None Include="Assets/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/x86_64/libagora_ai_noise_suppression_extension.dll" />
+    <None Include="Assets/Core/TextMesh Pro/Shaders/TMP_Sprite.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>Assets/Plugins/Google.Protobuf.3.8.0/lib/net45/Google.Protobuf.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BouncyCastle.Cryptography">
+      <HintPath>Assets/Home/Libs/BouncyCastle.Cryptography.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>Assets/SocketIO/Runtime/libs/Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FishNet.CodeAnalysis">
+      <HintPath>Assets/FishNet/Plugins/CodeAnalysis/FishNet.CodeAnalysis.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>Assets/SocketIO/Runtime/libs/System.Text.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>Assets/SocketIO/Runtime/libs/System.Text.Encodings.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reactive">
+      <HintPath>Assets/SocketIO/Runtime/libs/System.Reactive.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets/Plugins/LitJson.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets/SocketIO/Runtime/libs/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets/Framework/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>Assets/Core/Libraries/protobuf-net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TutorialWizardLoadingScreen">
+      <HintPath>Assets/LoadingScreen/Content/Scripts/Internal/Plugins/TutorialWizardLoadingScreen.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.GradleProject">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>Library/ScriptAssemblies/PPv2URPConverters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+      <HintPath>Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+      <HintPath>Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Addressables.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Addressables.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{CDF439F6-4A38-4191-AF44-5907624F900E}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameFramework.csproj">
+      <Project>{3BD0DA4E-B970-8215-5F25-2077B6995E0E}</Project>
+      <Name>GameFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameKit.Utilities.csproj">
+      <Project>{8175F02C-9693-E7DC-3B67-23077431AA8B}</Project>
+      <Name>GameKit.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="LoadingScreen.Misc.csproj">
+      <Project>{CB1A80B1-0A7C-B831-208F-F597B35C7406}</Project>
+      <Name>LoadingScreen.Misc</Name>
+    </ProjectReference>
+    <ProjectReference Include="FishNet.Codegen.Cecil.csproj">
+      <Project>{F3355470-F770-503C-3D36-A1930C3F283F}</Project>
+      <Name>FishNet.Codegen.Cecil</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityGameFramework.Editor.csproj">
+      <Project>{891689D3-08DD-7ED3-5BEB-BEFBFC0C69A1}</Project>
+      <Name>UnityGameFramework.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityGameFramework.Runtime.csproj">
+      <Project>{87A71744-EC7A-C0B3-C92D-2BAC16802930}</Project>
+      <Name>UnityGameFramework.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="DOTween.Modules.csproj">
+      <Project>{CB830373-4A92-26FB-5CAB-4A33F6F8679A}</Project>
+      <Name>DOTween.Modules</Name>
+    </ProjectReference>
+    <ProjectReference Include="FishNet.Demos.csproj">
+      <Project>{21BF813B-5422-6764-F137-02EB19EF17D6}</Project>
+      <Name>FishNet.Demos</Name>
+    </ProjectReference>
+    <ProjectReference Include="SocketIOUnityAssembly.csproj">
+      <Project>{399F536E-5B00-1572-FE10-3C47FA6ED305}</Project>
+      <Name>SocketIOUnityAssembly</Name>
+    </ProjectReference>
+    <ProjectReference Include="FishNet.Runtime.csproj">
+      <Project>{5ED02714-22DA-0D26-F77D-DF674A8DE197}</Project>
+      <Name>FishNet.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="ParrelSync.csproj">
+      <Project>{45C019E5-3801-50D3-352A-04EB090027DE}</Project>
+      <Name>ParrelSync</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameKit.Dependencies.csproj">
+      <Project>{8C3F9A4D-364D-B770-FD55-457B36E1776E}</Project>
+      <Name>GameKit.Dependencies</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)/Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
