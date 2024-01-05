@@ -28,8 +28,6 @@ public class TransportTrigger : NetworkBehaviour
             if (curPlayer.IsOwner)
             {
                 this.SceneManager.OnLoadEnd += SceneManager_OnLoadEnd;
-
-                GameEntry.UI.OpenUIForm(UIFormId.SceenLoading);
             }
         }
 
@@ -117,8 +115,6 @@ public class TransportTrigger : NetworkBehaviour
         EventCenter.inst.EventTrigger((int)UIEventTag.EVENT_UI_FROM_WORLD_ENTER_LOBBY, curPlayer.CurPlayerInfo.uid);
         //但是每个客户端只处理自己的UI展示
         EventCenter.inst.EventTrigger((int)UIEventTag.EVENT_UI_ENTER_LOBBY_FORM, "LobbyOther");
-
-        GameEntry.UI.CloseAllLoadedUIForms();
     }
 
     private Player GetPlayerOwnedObject(Collider other)
